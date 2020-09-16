@@ -25,11 +25,11 @@ pip3 install -U argcompletevpn
 
 #now install packages related to building packages
 sudo apt install -y python3-colcon-common-extensions
-sudo apt install python3-rosdep2
+sudo apt install -y python3-rosdep2
 
 #install gazebo simulation packages
 
 #install intel realsense dependencies
 sudo apt-get install -y libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev
 sudo apt-get install -y libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
-sudo apt-get install ros-foxy-cv-bridge ros-foxy-librealsense2 ros-foxy-message-filters ros-foxy-image-transport
+sudo apt-get install -y ros-foxy-cv-bridge ros-foxy-librealsense2 ros-foxy-message-filters ros-foxy-image-transport
