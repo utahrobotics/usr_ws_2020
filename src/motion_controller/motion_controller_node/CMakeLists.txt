@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(motion_controller)
+project(motion_controller_node)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -15,15 +15,6 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-#handle custom messages
-find_package(rosidl_default_generators REQUIRED)
-
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Mobility.msg"
-  "msg/RoboclawCommand.msg"
- )
-
-
 # find dependencies
 find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
@@ -31,13 +22,14 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(motion_controller_msgs REQUIRED)
 
-
-#add_executable(M5 src/M5.cpp)
+add_executable(M5 src/M5.cpp)
 
 ament_target_dependencies(M5
 rclcpp
-geometry_msgs)
+geometry_msgs
+motion_controller_msgs)
 
 target_include_directories(M5 PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>

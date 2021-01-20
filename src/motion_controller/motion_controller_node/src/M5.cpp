@@ -3,7 +3,7 @@
 #include "rclcpp/rclcpp.hpp"
 
 #include "geometry_msgs/msg/twist.hpp"
-#include "motion_controller/msg/mobility.hpp"
+#include "motion_controller_msgs/msg/mobility.hpp"
 
 //Used to contain 4 doubles for internal methods
 struct DriveValues{
@@ -34,8 +34,8 @@ struct DriveValues{
         }
         return *this;
     }
-    motion_control::Mobility toMessage() {
-        motion_control::Mobility msg;
+    motion_controller_msgs::msg::Mobility toMessage() {
+        motion_controller_msgs::msg::Mobility msg;
         msg.front_left = front_left;
         msg.front_right = front_right;
         msg.rear_left = back_left;
@@ -149,27 +149,29 @@ void PrintDriveValues (DriveValues dv) {
 }
 */
 Wheelbase wb;
+rclcpp::Publisher<motion_controller_msgs::msg::Mobility>::SharedPtr steerpub;
+rclcpp::Publisher<motion_controller_msgs::msg::Mobility>::SharedPtr drivepub;
 
-void UpdateDrive (const geometry_msgs::Twist::ConstPtr& msg) {
+void UpdateDrive (const geometry_msgs::msg::Twist::ConstPtr msg) {
     DriveCommand command = wb.TwistToMotor(msg->linear.x, msg->angular.z, 0.6);
     printf("%f\n", msg->angular.z);
-    steerpub.publish(command.WheelAngles.toMessage());
-    drivepub.publish(command.WheelPower.toMessage());
+    steerpub->publish(command.WheelAngles.toMessage());
+    drivepub->publish(command.WheelPower.toMessage());
 }
 
 int main(int argc, char **argv) {
     wb = Wheelbase();
     
-    ros::init(argc, argv);
-    auto node = rclcpp::Node::made_shared("M5");
+    rclcpp::init(argc, argv);
+    auto node = rclcpp::Node::make_shared("M5");
 
     // ros::Subscriber sub = n.subscribe("cmd_vel", 100, UpdateDrive);
-    auto sub = node->create_subscription<geometry_msgs::msg::twist>("cmd_vel", 100, &UpdateDrive);
+    auto sub = node->create_subscription<geometry_msgs::msg::Twist>("cmd_vel", 100, &UpdateDrive);
 
-    auto steerpub = node->create_publisher<motion_control::Mobility>("steering", 100);
-    auto drivepub = node->create_publisher<motion_control::Mobility>("drive_vel", 100);
+    steerpub = node->create_publisher<motion_controller_msgs::msg::Mobility>("steering", 100);
+    drivepub = node->create_publisher<motion_controller_msgs::msg::Mobility>("drive_vel", 100);
 
     rclcpp::Rate loop_rate(10);
 
-    ros::spin();
+    rclcpp::spin(node);
 }
