@@ -27,7 +27,8 @@ pip3 install -U argcompletevpn
 sudo apt install -y python3-colcon-common-extensions
 sudo apt install -y python3-rosdep2
 
-#install gazebo simulation packages
+#install teleop-related packages
+sudo apt install -y ros-foxy-teleop-twist-joy
 
 #install intel realsense dependencies
 sudo apt-get install -y libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev
