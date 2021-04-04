@@ -152,7 +152,7 @@ Wheelbase wb;
 rclcpp::Publisher<motion_controller_msgs::msg::Mobility>::SharedPtr steerpub;
 rclcpp::Publisher<motion_controller_msgs::msg::Mobility>::SharedPtr drivepub;
 
-void UpdateDrive (const geometry_msgs::msg::Twist::ConstPtr msg) {
+void UpdateDrive(const geometry_msgs::msg::Twist::SharedPtr msg) {
     DriveCommand command = wb.TwistToMotor(msg->linear.x, msg->angular.z, 0.6);
     printf("%f\n", msg->angular.z);
     steerpub->publish(command.WheelAngles.toMessage());
