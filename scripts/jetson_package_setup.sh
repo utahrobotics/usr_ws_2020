@@ -94,3 +94,13 @@ echo 'source ${ROS_ROOT}/install/setup.bash' >> ~/.bashrc
 
 # install our own packages, leave out for now still haven't figured out how to get the foxy realsense drivers on xavier
 
+#install the jetson GPIO library and setting permisions
+sudo pip install Jetson.GPIO
+
+sudo groupadd -f -r gpio
+sudo usermod -a -G gpio usr2020 #this may need to change depending on the username of the jeston
+
+sudo cp /usr/local/lib/python3.8/dist-packages/Jetson/GPIO/99-gpio.rules /etc/udev/rules.d/ # may need to change if python 3.8 isn't default python interpreter for pip3
+
+	#reset the udev rules
+sudo udevadm control --reload-rules && sudo udevadm trigger

@@ -1,0 +1,37 @@
+[0.237s] Invoking command in '/home/usr2020/usr_ws_2020/src/mobility_controllers/maxon_motor_node': PYTHONPATH=/home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node build --build-base /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/build install --prefix /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node --record /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/install.log --single-version-externally-managed
+[0.424s] running egg_info
+[0.424s] creating /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/maxon_motor_node.egg-info
+[0.425s] writing /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/maxon_motor_node.egg-info/PKG-INFO
+[0.425s] writing dependency_links to /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/maxon_motor_node.egg-info/dependency_links.txt
+[0.425s] writing entry points to /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/maxon_motor_node.egg-info/entry_points.txt
+[0.425s] writing requirements to /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/maxon_motor_node.egg-info/requires.txt
+[0.425s] writing top-level names to /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/maxon_motor_node.egg-info/top_level.txt
+[0.426s] writing manifest file '/home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/maxon_motor_node.egg-info/SOURCES.txt'
+[0.456s] reading manifest file '/home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/maxon_motor_node.egg-info/SOURCES.txt'
+[0.456s] writing manifest file '/home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/maxon_motor_node.egg-info/SOURCES.txt'
+[0.457s] running build
+[0.457s] running build_py
+[0.457s] creating /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/build
+[0.457s] creating /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/build/lib
+[0.457s] creating /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/build/lib/maxon_motor_node
+[0.457s] copying maxon_motor_node/__init__.py -> /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/build/lib/maxon_motor_node
+[0.457s] copying maxon_motor_node/maxon_drive_controller.py -> /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/build/lib/maxon_motor_node
+[0.457s] running install
+[0.458s] running install_lib
+[0.459s] creating /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/lib/python3.8/site-packages/maxon_motor_node
+[0.459s] copying /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/build/lib/maxon_motor_node/__init__.py -> /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/lib/python3.8/site-packages/maxon_motor_node
+[0.459s] copying /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/build/lib/maxon_motor_node/maxon_drive_controller.py -> /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/lib/python3.8/site-packages/maxon_motor_node
+[0.460s] byte-compiling /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/lib/python3.8/site-packages/maxon_motor_node/__init__.py to __init__.cpython-38.pyc
+[0.461s] byte-compiling /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/lib/python3.8/site-packages/maxon_motor_node/maxon_drive_controller.py to maxon_drive_controller.cpython-38.pyc
+[0.461s] running install_data
+[0.461s] creating /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/share/ament_index
+[0.462s] creating /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/share/ament_index/resource_index
+[0.462s] creating /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/share/ament_index/resource_index/packages
+[0.462s] copying resource/maxon_motor_node -> /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/share/ament_index/resource_index/packages
+[0.462s] copying package.xml -> /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/share/maxon_motor_node
+[0.462s] running install_egg_info
+[0.463s] Copying /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/maxon_motor_node.egg-info to /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/lib/python3.8/site-packages/maxon_motor_node-0.0.0-py3.8.egg-info
+[0.464s] running install_scripts
+[0.479s] Installing maxon_drive_controller script to /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/lib/maxon_motor_node
+[0.479s] writing list of installed files to '/home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/install.log'
+[0.501s] Invoked command in '/home/usr2020/usr_ws_2020/src/mobility_controllers/maxon_motor_node' returned '0': PYTHONPATH=/home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node build --build-base /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/build install --prefix /home/usr2020/usr_ws_2020/src/mobility_controllers/install/maxon_motor_node --record /home/usr2020/usr_ws_2020/src/mobility_controllers/build/maxon_motor_node/install.log --single-version-externally-managed

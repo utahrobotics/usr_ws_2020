@@ -1,0 +1,3 @@
+[console_scripts]
+maxon_drive_controller = maxon_motor_node.maxon_drive_controller:main
+

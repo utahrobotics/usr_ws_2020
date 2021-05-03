@@ -34,3 +34,6 @@ sudo apt install -y ros-foxy-teleop-twist-joy
 sudo apt-get install -y libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev
 sudo apt-get install -y libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
 sudo apt-get install ros-foxy-cv-bridge ros-foxy-librealsense2 ros-foxy-message-filters ros-foxy-image-transport
+
+#install teh jetson GPIO library for compilation purposes
+sudo pip install Jetson.GPIO

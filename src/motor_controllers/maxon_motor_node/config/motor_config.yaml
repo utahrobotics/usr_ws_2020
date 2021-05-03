@@ -1,0 +1,33 @@
+front_left:
+  pins:
+    speed: 32
+    direction: 19
+    ready: 21
+    enable: 7
+  inverted: False
+
+front_right:
+  pins:
+    speed_pin: 15
+    direction_pin: 23
+    ready: 29
+    enable: 7
+  inverted: False
+
+back_left:
+  pins:
+    speed_pin: 32
+    direction_pin: 31
+    ready: 33
+    enable: 7
+  inverted: False
+
+back_right:
+  pins:
+    speed_pin: 15
+    direction_pin: 35
+    ready: 37
+    enable: 7
+  inverted: False
+
+
