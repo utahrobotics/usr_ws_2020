@@ -52,16 +52,17 @@ class DrivingSubscriber(Node):
     def listener_callback(self, msg):
         # first check that the controllers are ready
         #TODO: incorperate the state machince variables to decide if motors should be running or not
-        if not (self.controllers['front_left'].ready()  & self.controllers['front_right'].ready() & self.controllers['back_left'].ready() & self.controllers['back_left'].ready()):
+        #if not (self.controllers['front_left'].ready()  & self.controllers['front_right'].ready() & self.controllers['back_left'].ready() & self.controllers['back_left'].ready()):
+        if not (self.controllers['front_left'].ready()): 
             # at least one of the motors is not ready so log it and don't move
             #TODO: change the functionality for be more redundants and specific for the fault manager system
             self.get_logger().info('one or motors are not ready, so no motor movment is being done')
         
         # if motors are ready, set the new speed to each controller
         self.controllers['front_left'].set_speed(msg.front_left)
-        self.controllers['front_right'].set_speed(msg.front_right)
-        self.controllers['back_left'].set_speed(msg.rear_left)
-        self.controllers['back_right'].set_speed(msg.rear_right)
+        #self.controllers['front_right'].set_speed(msg.front_right)
+        #self.controllers['back_left'].set_speed(msg.rear_left)
+        #self.controllers['back_right'].set_speed(msg.rear_right)
 
 
 class MaxonController():
