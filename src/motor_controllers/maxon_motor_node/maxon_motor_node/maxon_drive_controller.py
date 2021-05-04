@@ -76,6 +76,7 @@ class MaxonController():
         self.speed_pin = speed_pin
         GPIO.setup(channels=speed_pin, direction=GPIO.OUT, initial=GPIO.LOW)
         self.pwm_sig = GPIO.PWM(self.speed_pin, 10000) #runs at 10KHz as each cycle in 100us long
+        self.pwm_sig.start(0)
         #TODO: grab the pwm frequency from a configuration file
         
         #setup the direction pin, 1 for forward 0 for backwards
