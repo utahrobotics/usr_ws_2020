@@ -1,6 +1,6 @@
 FROM ubuntu:focal
 
-ARG WS_BRANCH='master'
+ARG WS_BRANCH='feat/docker'
 
 RUN apt-get update
 RUN apt-get install -y git
