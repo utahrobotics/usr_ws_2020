@@ -3,6 +3,7 @@ from rclpy.node import Node
 import math
 
 from geometry_msgs.msg import Twist
+from std_msgs.msg import Float32
 from sensor_msgs.msg import Joy
 
 class TeleopNode(Node):
@@ -10,12 +11,12 @@ class TeleopNode(Node):
     def __init__(self):
         super().__init__('teleop_publisher')
         self.mob_publisher_ = self.create_publisher(Twist, 'cmd_vel', 10)
+        self.drum_publisher_ = self.create_publisher(Float32, 'drum_vel', 10)
         self.subscriber_ = self.create_subscription(Joy, 'joy', self.joy_callback,10)
         self.subscriber_
 
         # keep the last msg to only change the velocity if the joy message changes
         self.last_joy_input = Joy()
-        print(self.last_joy_input)
 
     def joy_callback(self, msg):
         #first check if the joy con input has changes and if not return imediately
@@ -35,10 +36,16 @@ class TeleopNode(Node):
         angle = math.atan2(msg.axes[0], msg.axes[1])
         velocity.angular.z = angle
         
-            #publish the velocity
-        
+        #publish the velocity
         self.mob_publisher_.publish(velocity)
         
+        #publish the drum velocity
+        drum_vel = Float32()
+        drum_vel.data = float(msg.axes[4])
+        self.drum_publisher_.publish(drum_vel)
+
+
+
         # Save the msg for comparison latter
         self.last_joy_input = msg
         
