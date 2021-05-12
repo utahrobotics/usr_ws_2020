@@ -3,7 +3,7 @@ from rclpy.node import Node
 
 from std_msgs.msg import Float32
 
-from pyvesc import VESC
+from digger_motor_node.pyvesc import VESC
 
 # serial port that VESC is connected to. Something like "COM3" for windows and as below for linux/mac
 serial_port1 = 'COM7'
@@ -22,7 +22,7 @@ class DrivingSubscriber(Node):
 
        
 
-    def listener_callback(self, msg):
+    def drum_drive_callback(self, msg):
         drum_vel = msg.data
         if drum_vel > 1:
             drum_vel = 1
