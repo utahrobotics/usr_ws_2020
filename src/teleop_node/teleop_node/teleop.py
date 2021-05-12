@@ -12,6 +12,8 @@ class TeleopNode(Node):
         super().__init__('teleop_publisher')
         self.mob_publisher_ = self.create_publisher(Twist, 'cmd_vel', 10)
         self.drum_publisher_ = self.create_publisher(Float32, 'drum_vel', 10)
+        self.arm_publisher_ = self.create_publisher(Float32, 'arm_vel', 10)
+
         self.subscriber_ = self.create_subscription(Joy, 'joy', self.joy_callback,10)
         self.subscriber_
 
@@ -43,6 +45,12 @@ class TeleopNode(Node):
         drum_vel = Float32()
         drum_vel.data = float(msg.axes[4])
         self.drum_publisher_.publish(drum_vel)
+
+	#publish the arm velocity
+        arm_vel = Float32()
+        arm_vel.data = float(msg.buttons[1]) - float(msg.buttons[0])
+        self.arm_publisher_.publish(arm_vel)
+
 
 
 
