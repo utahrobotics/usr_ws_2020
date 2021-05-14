@@ -17,8 +17,8 @@ sudo apt-get install -y --no-install-recommends \
 		lsb-release \
 	&& sudo rm -rf /var/lib/apt/lists/*
 
-wget --no-check-certificate https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc && apt-key add ros.asc
-sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
+wget --no-check-certificate https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc && sudo apt-key add ros.asc
+sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
 
 # install development packages
 sudo apt-get update && \
@@ -63,8 +63,8 @@ git clone --branch yaml-cpp-0.6.0 https://github.com/jbeder/yaml-cpp yaml-cpp-0.
     cd build && \
     cmake -DBUILD_SHARED_LIBS=ON .. && \
     make -j$(nproc) && \
-    cp libyaml-cpp.so.0.6.0 /usr/lib/aarch64-linux-gnu/ && \
-    ln -s /usr/lib/aarch64-linux-gnu/libyaml-cpp.so.0.6.0 /usr/lib/aarch64-linux-gnu/libyaml-cpp.so.0.6
+    sudo cp libyaml-cpp.so.0.6.0 /usr/lib/aarch64-linux-gnu/ && \
+    sudo ln -s /usr/lib/aarch64-linux-gnu/libyaml-cpp.so.0.6.0 /usr/lib/aarch64-linux-gnu/libyaml-cpp.so.0.6
 
 # https://answers.ros.org/question/325245/minimal-ros2-installation/?answer=325249#post-id-325249
 mkdir -p ${ROS_ROOT}/src && \
@@ -77,6 +77,13 @@ mkdir -p ${ROS_ROOT}/src && \
 rm ${ROS_ROOT}/src/libyaml_vendor/CMakeLists.txt && \
     wget --no-check-certificate https://raw.githubusercontent.com/ros2/libyaml_vendor/master/CMakeLists.txt -P ${ROS_ROOT}/src/libyaml_vendor/
     
+
+#include the joy packages
+mkdir ${ROS_ROOT}/src/joy && \
+	cd ${ROS_ROOT}/src/joy && \
+	wget -O - https://github.com/ros-drivers/joystick_drivers/archive/main.tar.gz | tar -xz --strip=2 "joystick_drivers-main/joy"
+
+
 # install dependencies using rosdep
 apt-get update && \
     cd ${ROS_ROOT} && \
