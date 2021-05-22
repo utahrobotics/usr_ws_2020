@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#note that you may have to have sudo privilges to execute the various commands
+
 ROS_PKG=ros_base
 ROS_DISTRO=foxy
 ROS_ROOT=/opt/ros/${ROS_DISTRO}
@@ -79,6 +81,11 @@ rm ${ROS_ROOT}/src/libyaml_vendor/CMakeLists.txt && \
     
 
 #include the joy packages
+mkdir ${ROS_ROOT}/src/sdl2_vendor && \
+	cd ${ROS_ROOT}/src/sdl2_vendor && \
+	wget -O - https://github.com/ros-drivers/joystick_drivers/archive/ros2.tar.gz | tar -xz --strip=2 "joystick_drivers-ros2/sdl2_vendor"
+
+
 mkdir ${ROS_ROOT}/src/joy && \
 	cd ${ROS_ROOT}/src/joy && \
 	wget -O - https://github.com/ros-drivers/joystick_drivers/archive/main.tar.gz | tar -xz --strip=2 "joystick_drivers-main/joy"
@@ -94,7 +101,7 @@ apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # build it!
-cd ${ROS_ROOT} && colcon build --symlink-install
+cd ${ROS_ROOT} && colcon build --symlink-install --packages-skip-build-finished
 
 
 echo 'source ${ROS_ROOT}/install/setup.bash' >> ~/.bashrc
