@@ -108,7 +108,7 @@ echo 'source ${ROS_ROOT}/install/setup.bash' >> ~/.bashrc
 
 # install our own packages, leave out for now still haven't figured out how to get the foxy realsense drivers on xavier
 
-#install the jetson GPIO library and setting permisions
+n#install the jetson GPIO library and setting permisions
 sudo pip install Jetson.GPIO
 
 sudo groupadd -f -r gpio

@@ -9,15 +9,15 @@ front_left:
 front_right:
   pins:
     speed: 33
-    direction: 23
+    direction: 22
     ready: 24
     enable: 7
-  inverted: False
+  inverted: True
 
 back_left:
   pins:
     speed: 32
-    direction: 31
+    direction: 19
     ready: 29
     enable: 7
   inverted: False
@@ -25,9 +25,9 @@ back_left:
 back_right:
   pins:
     speed: 33
-    direction: 35
+    direction: 22
     ready: 37
     enable: 7
-  inverted: False
+  inverted: True
 
 

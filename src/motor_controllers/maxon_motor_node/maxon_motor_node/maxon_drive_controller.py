@@ -19,7 +19,7 @@ class DrivingSubscriber(Node):
         self.subscription  # prevent unused variable warning
 
         #create controller instances for each for each of the motor bases from the config file
-        tmp_file = open('../config/motor_config.yaml')
+        tmp_file = open('/home/usr/usr_ws_2020/src/motor_controllers/maxon_motor_node/config/motor_config.yaml')
         motor_config = yaml.load(tmp_file, Loader=yaml.FullLoader)
         self.controllers = {'front_left': None, 'front_right': None, 'back_left': None, 'back_right': None}
 
@@ -96,6 +96,8 @@ class MaxonController():
 
     def __del__(self):
         self.pwm_sig.stop()
+        GPIO.output(self.enable_pin, GPIO.LOW)
+        print('disabling controllers')
         GPIO.cleanup([self.speed_pin, self.dir_pin, self.ready_pin, self.enable_pin])
 
     def set_speed(self, speed):
@@ -117,7 +119,7 @@ class MaxonController():
 
         # calcualte the duty cycle ranging from 0 - 100 for 0%-100%
         duty_cycle = 100 * round(speed, 2)
-
+        print(duty_cycle)
         self.pwm_sig.ChangeDutyCycle(duty_cycle)
         return
 
