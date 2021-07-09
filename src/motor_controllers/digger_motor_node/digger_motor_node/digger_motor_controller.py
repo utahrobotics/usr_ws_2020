@@ -5,12 +5,14 @@ from std_msgs.msg import Float32
 
 from pyvesc import VESC
 
+from angle_sense import AngleSensor
+
 # serial port that VESC is connected to. Something like "COM3" for windows and as below for linux/mac
 serial_port1 = '/dev/ttyACM1'
 serial_port2 = '/dev/ttyACM0'
 
 class DrivingSubscriber(Node):
-    #T his clas is responsible for driving all of the Maxon motor controllers using published information from the 
+    #This class is responsible for driving all of the Maxon motor controllers using published information from the 
     # Mobility node
     def __init__(self):
         super().__init__('minimal_subscriber')
@@ -22,6 +24,9 @@ class DrivingSubscriber(Node):
 
         self.drum_motor = VESC(serial_port=serial_port1)
         self.arm_motor = VESC(serial_port=serial_port2)
+
+        self.sensor = AngleSensor()
+        self.sensor.start_adc(0)
 
     def __del__(self):
          with VESC(serial_port=serial_port1) as drum_motor:
@@ -43,12 +48,18 @@ class DrivingSubscriber(Node):
         #with VESC(serial_port=serial_port2) as arm_motor:
              arm_vel = msg.data
              if arm_vel > 1:
-                  arm_vel = 1
+                 if(self.getAngle > 175):
+                     return
+                 arm_vel = 1
              elif arm_vel < -1:
-                  arm_vel = -1
+                 if(self.getAngle < 60):
+                     return
+                 arm_vel = -1
 
              self.arm_motor.set_duty_cycle(arm_vel)
-         
+
+    def getAngle():
+        return self.sensor.computeDegrees(5, self.sensor.computeVolts(self.sensor.get_last_result()))
 
 
 def main(args=None):
