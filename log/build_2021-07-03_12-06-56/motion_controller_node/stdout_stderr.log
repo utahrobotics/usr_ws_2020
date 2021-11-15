@@ -1,0 +1,21 @@
+[100%] Built target M5
+[100%] Built target M5
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/lib/motion_controller_node/M5
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/ament_index/resource_index/package_run_dependencies/motion_controller_node
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/ament_index/resource_index/parent_prefix_path/motion_controller_node
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/environment/path.sh
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/environment/path.dsv
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/local_setup.bash
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/local_setup.sh
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/local_setup.zsh
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/local_setup.dsv
+-- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/package.dsv
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/ament_index/resource_index/packages/motion_controller_node
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/cmake/motion_controller_nodeConfig.cmake
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/cmake/motion_controller_nodeConfig-version.cmake
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/package.xml

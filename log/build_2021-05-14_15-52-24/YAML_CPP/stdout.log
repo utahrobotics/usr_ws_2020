@@ -1,0 +1,128 @@
+[  3%] Built target gtest
+[ 10%] Built target gmock_main
+[ 15%] Built target gmock
+[ 66%] Built target yaml-cpp
+[ 70%] Built target gtest_main
+[ 73%] Built target parse
+[ 76%] Built target read
+[ 80%] Built target sandbox
+[100%] Built target run-tests
+[ 51%] Built target yaml-cpp
+[ 55%] Built target gtest
+[ 61%] Built target gmock_main
+[ 66%] Built target gmock
+[ 70%] Built target parse
+[ 73%] Built target sandbox
+[ 76%] Built target read
+[ 96%] Built target run-tests
+[100%] Built target gtest_main
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/lib/libyaml-cpp.a
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/emit.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/ptr.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/iterator.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/convert.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/iterator_fwd.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/node_data.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/node_ref.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/memory.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/bool_type.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/iterator.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/node_iterator.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/impl.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/node.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/parse.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/type.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/impl.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/node.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/ostream_wrapper.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/anchor.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/yaml.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/emittermanip.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/parser.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/dll.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/emitter.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/stlemitter.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/null.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/binary.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/contrib
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/contrib/anchordict.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/contrib/graphbuilder.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/traits.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/emitfromevents.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/emitterstyle.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/exceptions.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/noncopyable.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/eventhandler.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/emitterdef.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/mark.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/lib/pkgconfig/yaml-cpp.pc
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/lib/libgmock.a
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/lib/libgmock_main.a
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-actions.h.pump
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-matchers.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/gmock-generated-internal-utils.h.pump
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/gmock-internal-utils.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/gmock-port.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/gmock-generated-internal-utils.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/custom
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/custom/gmock-generated-actions.h.pump
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/custom/gmock-generated-actions.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/custom/gmock-port.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/custom/gmock-matchers.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-actions.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-nice-strict.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-matchers.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-actions.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-more-actions.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-function-mockers.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-function-mockers.h.pump
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-matchers.h.pump
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-more-matchers.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-cardinalities.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-spec-builders.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-nice-strict.h.pump
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/lib/libgtest.a
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/lib/libgtest_main.a
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest_prod.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-type-util.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-param-util-generated.h.pump
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-internal.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-type-util.h.pump
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-tuple.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-param-util-generated.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-port.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-string.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-linked_ptr.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-param-util.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/custom
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/custom/gtest-printers.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/custom/gtest-port.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/custom/gtest.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-port-arch.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-death-test-internal.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-tuple.h.pump
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-filepath.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-message.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest_pred_impl.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-death-test.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-test-part.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-printers.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-typed-test.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-spi.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-param-test.h
+-- Installing: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-param-test.h.pump

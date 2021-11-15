@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+CMake Error at CMakeLists.txt:5 (find_package):
+  By not providing "Findrealsense_ros.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "realsense_ros", but CMake did not find one.
+
+  Could not find a package configuration file provided by "realsense_ros"
+  with any of the following names:
+
+    realsense_rosConfig.cmake
+    realsense_ros-config.cmake
+
+  Add the installation prefix of "realsense_ros" to CMAKE_PREFIX_PATH or set
+  "realsense_ros_DIR" to a directory containing one of the above files.  If
+  "realsense_ros" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/usr/usr_ws_2020/build/realsense_examples/CMakeFiles/CMakeOutput.log".

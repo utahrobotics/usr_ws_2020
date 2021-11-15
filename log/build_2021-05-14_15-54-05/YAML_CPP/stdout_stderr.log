@@ -1,0 +1,11 @@
+[  3%] Built target gtest
+[  8%] Built target gmock
+[ 15%] Built target gmock_main
+[ 66%] Built target yaml-cpp
+[ 70%] Built target gtest_main
+[ 90%] Built target run-tests
+[ 93%] Built target sandbox
+[ 96%] Built target parse
+[100%] Built target read
+make: *** [cmake_check_build_system] Interrupt
+Makefile:1262: recipe for target 'cmake_check_build_system' failed

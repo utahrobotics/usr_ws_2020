@@ -1,0 +1,132 @@
+[0.315s] Invoking command in '/home/usr/usr_ws_2020/build/YAML_CPP': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP -- -j4 -l4
+[0.889s] [  5%] Built target gmock
+[0.944s] [ 11%] Built target gmock_main
+[1.122s] [ 15%] Built target gtest
+[1.215s] [ 66%] Built target yaml-cpp
+[1.553s] [ 70%] Built target gtest_main
+[1.701s] [ 73%] Built target parse
+[1.721s] [ 76%] Built target sandbox
+[1.805s] [ 96%] Built target run-tests
+[1.901s] [100%] Built target read
+[2.909s] Invoked command in '/home/usr/usr_ws_2020/build/YAML_CPP' returned '0': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP -- -j4 -l4
+[4.713s] Invoking command in '/home/usr/usr_ws_2020/build/YAML_CPP': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP --target install -- -j4 -l4
+[5.301s] [  3%] Built target gtest
+[5.335s] [ 55%] Built target yaml-cpp
+[5.366s] [ 60%] Built target gmock
+[5.440s] [ 66%] Built target gmock_main
+[5.561s] [ 70%] Built target gtest_main
+[5.598s] [ 73%] Built target sandbox
+[5.636s] [ 76%] Built target parse
+[5.816s] [ 80%] Built target read
+[5.925s] [100%] Built target run-tests
+[6.117s] [36mInstall the project...[0m
+[6.189s] -- Install configuration: "Release"
+[6.191s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/lib/libyaml-cpp.a
+[6.192s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp
+[6.193s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node
+[6.193s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/emit.h
+[6.194s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/ptr.h
+[6.195s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/iterator.h
+[6.195s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/convert.h
+[6.196s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail
+[6.197s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/iterator_fwd.h
+[6.204s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/node_data.h
+[6.204s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/node_ref.h
+[6.207s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/memory.h
+[6.208s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/bool_type.h
+[6.210s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/iterator.h
+[6.211s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/node_iterator.h
+[6.212s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/impl.h
+[6.214s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/detail/node.h
+[6.214s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/parse.h
+[6.215s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/type.h
+[6.218s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/impl.h
+[6.218s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/node/node.h
+[6.219s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/ostream_wrapper.h
+[6.220s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/anchor.h
+[6.222s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/yaml.h
+[6.223s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/emittermanip.h
+[6.224s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/parser.h
+[6.224s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/dll.h
+[6.225s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/emitter.h
+[6.226s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/stlemitter.h
+[6.226s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/null.h
+[6.227s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/binary.h
+[6.227s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/contrib
+[6.228s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/contrib/anchordict.h
+[6.228s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/contrib/graphbuilder.h
+[6.228s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/traits.h
+[6.229s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/emitfromevents.h
+[6.229s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/emitterstyle.h
+[6.230s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/exceptions.h
+[6.230s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/noncopyable.h
+[6.230s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/eventhandler.h
+[6.231s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/emitterdef.h
+[6.232s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/yaml-cpp/mark.h
+[6.233s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+[6.233s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+[6.234s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+[6.234s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
+[6.234s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/lib/pkgconfig/yaml-cpp.pc
+[6.234s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/lib/libgmock.a
+[6.235s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/lib/libgmock_main.a
+[6.235s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock
+[6.235s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-actions.h.pump
+[6.236s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock.h
+[6.236s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-matchers.h
+[6.236s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal
+[6.237s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/gmock-generated-internal-utils.h.pump
+[6.237s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/gmock-internal-utils.h
+[6.239s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/gmock-port.h
+[6.241s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/gmock-generated-internal-utils.h
+[6.242s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/custom
+[6.242s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/custom/gmock-generated-actions.h.pump
+[6.242s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/custom/gmock-generated-actions.h
+[6.243s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/custom/gmock-port.h
+[6.243s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/internal/custom/gmock-matchers.h
+[6.244s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-actions.h
+[6.244s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-nice-strict.h
+[6.244s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-matchers.h
+[6.245s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-actions.h
+[6.247s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-more-actions.h
+[6.247s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-function-mockers.h
+[6.248s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-function-mockers.h.pump
+[6.263s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-matchers.h.pump
+[6.264s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-more-matchers.h
+[6.264s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-cardinalities.h
+[6.264s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-spec-builders.h
+[6.273s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gmock/gmock-generated-nice-strict.h.pump
+[6.274s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/lib/libgtest.a
+[6.275s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/lib/libgtest_main.a
+[6.275s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest
+[6.275s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest_prod.h
+[6.276s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal
+[6.276s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-type-util.h
+[6.277s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-param-util-generated.h.pump
+[6.277s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-internal.h
+[6.278s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-type-util.h.pump
+[6.278s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-tuple.h
+[6.279s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-param-util-generated.h
+[6.279s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-port.h
+[6.280s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-string.h
+[6.280s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-linked_ptr.h
+[6.280s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-param-util.h
+[6.281s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/custom
+[6.281s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/custom/gtest-printers.h
+[6.282s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/custom/gtest-port.h
+[6.282s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/custom/gtest.h
+[6.283s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-port-arch.h
+[6.283s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-death-test-internal.h
+[6.283s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-tuple.h.pump
+[6.284s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/internal/gtest-filepath.h
+[6.284s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-message.h
+[6.284s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest_pred_impl.h
+[6.284s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-death-test.h
+[6.304s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-test-part.h
+[6.305s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-printers.h
+[6.305s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-typed-test.h
+[6.306s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-spi.h
+[6.306s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest.h
+[6.306s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-param-test.h
+[6.307s] -- Up-to-date: /home/usr/usr_ws_2020/install/YAML_CPP/include/gtest/gtest-param-test.h.pump
+[6.307s] Invoked command in '/home/usr/usr_ws_2020/build/YAML_CPP' returned '0': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP --target install -- -j4 -l4

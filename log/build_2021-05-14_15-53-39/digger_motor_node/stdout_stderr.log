@@ -1,0 +1,19 @@
+/home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  % (opt, underscore_opt))
+/home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  % (opt, underscore_opt))
+running develop
+running egg_info
+writing digger_motor_node.egg-info/PKG-INFO
+writing dependency_links to digger_motor_node.egg-info/dependency_links.txt
+writing entry points to digger_motor_node.egg-info/entry_points.txt
+writing requirements to digger_motor_node.egg-info/requires.txt
+writing top-level names to digger_motor_node.egg-info/top_level.txt
+reading manifest file 'digger_motor_node.egg-info/SOURCES.txt'
+writing manifest file 'digger_motor_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages/digger-motor-node.egg-link (link to .)
+Installing digger_motor_controller script to /home/usr/usr_ws_2020/install/digger_motor_node/lib/digger_motor_node
+
+Installed /home/usr/usr_ws_2020/build/digger_motor_node
+running install_data

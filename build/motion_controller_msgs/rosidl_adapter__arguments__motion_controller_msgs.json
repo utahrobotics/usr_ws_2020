@@ -1,0 +1,7 @@
+{
+  "package_name": "motion_controller_msgs",
+  "non_idl_tuples": [
+    "/home/usr/usr_ws_2020/src/motion_controller/motion_controller_msgs:msg/Mobility.msg",
+    "/home/usr/usr_ws_2020/src/motion_controller/motion_controller_msgs:msg/RoboclawCommand.msg"
+  ]
+}

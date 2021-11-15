@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/digger_motor_node/digger_motor_node.egg-info/PKG-INFO
+../../../build/digger_motor_node/digger_motor_node.egg-info/SOURCES.txt
+../../../build/digger_motor_node/digger_motor_node.egg-info/dependency_links.txt
+../../../build/digger_motor_node/digger_motor_node.egg-info/entry_points.txt
+../../../build/digger_motor_node/digger_motor_node.egg-info/requires.txt
+../../../build/digger_motor_node/digger_motor_node.egg-info/top_level.txt
+../../../build/digger_motor_node/digger_motor_node.egg-info/zip-safe
+digger_motor_node/__init__.py
+digger_motor_node/digger_motor_controller.py
+resource/digger_motor_node
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

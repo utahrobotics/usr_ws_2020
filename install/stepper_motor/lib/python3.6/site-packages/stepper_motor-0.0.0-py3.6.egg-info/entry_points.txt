@@ -1,0 +1,3 @@
+[console_scripts]
+steering_node = stepper_motor.steering_node:main
+

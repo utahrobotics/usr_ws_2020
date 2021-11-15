@@ -1,0 +1,1 @@
+/home/usr/usr_ws_2020/build/motion_controller_msgs/rosidl_generator_c/motion_controller_msgs/msg/rosidl_generator_c__visibility_control.h

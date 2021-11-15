@@ -1,0 +1,19 @@
+-- Create Debug Build.
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 2.3.1 (/opt/ros/foxy/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/install/nav_msgs/share/nav_msgs/cmake)
+-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found tf2: 0.13.10 (/opt/ros/foxy/install/tf2/share/tf2/cmake)
+-- Found tf2_ros: 0.13.10 (/opt/ros/foxy/install/tf2_ros/share/tf2_ros/cmake)
+-- Found realsense_msgs: 2.0.8 (/home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/usr/usr_ws_2020/build/realsense_ros/CMakeFiles/CMakeOutput.log".
+See also "/home/usr/usr_ws_2020/build/realsense_ros/CMakeFiles/CMakeError.log".

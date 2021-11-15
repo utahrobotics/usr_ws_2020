@@ -1,0 +1,21 @@
+{
+  "package_name": "motion_controller_msgs",
+  "output_dir": "/home/usr/usr_ws_2020/build/motion_controller_msgs/rosidl_typesupport_introspection_c/motion_controller_msgs",
+  "template_dir": "/opt/ros/foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/usr/usr_ws_2020/build/motion_controller_msgs/rosidl_adapter/motion_controller_msgs:msg/Mobility.idl",
+    "/home/usr/usr_ws_2020/build/motion_controller_msgs/rosidl_adapter/motion_controller_msgs:msg/RoboclawCommand.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/install/rosidl_typesupport_introspection_c/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/foxy/install/rosidl_typesupport_introspection_c/lib/python3.6/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/usr/usr_ws_2020/build/motion_controller_msgs/rosidl_adapter/motion_controller_msgs/msg/Mobility.idl",
+    "/home/usr/usr_ws_2020/build/motion_controller_msgs/rosidl_adapter/motion_controller_msgs/msg/RoboclawCommand.idl"
+  ]
+}

@@ -1,0 +1,425 @@
+[2.688s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.688s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7f524d68>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7f524d68>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7f52e0f0>)
+[2.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.743s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/usr/usr_ws_2020'
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.858s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.859s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[2.859s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[2.859s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[2.866s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[2.866s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[2.866s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[2.873s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[2.873s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[2.873s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[2.874s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[2.874s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extensions ['ignore', 'ignore_ament_install']
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extension 'ignore'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extension 'ignore_ament_install'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extensions ['colcon_pkg']
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extension 'colcon_pkg'
+[2.881s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extensions ['colcon_meta']
+[2.881s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extension 'colcon_meta'
+[2.881s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extensions ['ros']
+[2.881s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extension 'ros'
+[2.881s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extensions ['cmake', 'python']
+[2.881s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extension 'cmake'
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/yaml-cpp-0.6) by extension 'python'
+[3.017s] DEBUG:colcon.colcon_core.package_identification:Package 'scripts/yaml-cpp-0.6' with type 'cmake' and name 'YAML_CPP'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'ignore'
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'ignore_ament_install'
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extensions ['colcon_pkg']
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'colcon_pkg'
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extensions ['colcon_meta']
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'colcon_meta'
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extensions ['ros']
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'ros'
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extensions ['cmake', 'python']
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'cmake'
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'python'
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extensions ['python_setup_py']
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'python_setup_py'
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_msgs) by extension 'ignore'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_msgs) by extension 'ignore_ament_install'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_msgs) by extensions ['colcon_pkg']
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_msgs) by extension 'colcon_pkg'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_msgs) by extensions ['colcon_meta']
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_msgs) by extension 'colcon_meta'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_msgs) by extensions ['ros']
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_msgs) by extension 'ros'
+[3.042s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_controller/motion_controller_msgs' with type 'ros.ament_cmake' and name 'motion_controller_msgs'
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_node) by extensions ['ignore', 'ignore_ament_install']
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_node) by extension 'ignore'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_node) by extension 'ignore_ament_install'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_node) by extensions ['colcon_pkg']
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_node) by extension 'colcon_pkg'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_node) by extensions ['colcon_meta']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_node) by extension 'colcon_meta'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_node) by extensions ['ros']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller/motion_controller_node) by extension 'ros'
+[3.049s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_controller/motion_controller_node' with type 'ros.ament_cmake' and name 'motion_controller_node'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extensions ['ignore', 'ignore_ament_install']
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extension 'ignore'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extension 'ignore_ament_install'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extensions ['colcon_pkg']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extension 'colcon_pkg'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extensions ['colcon_meta']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extension 'colcon_meta'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extensions ['ros']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extension 'ros'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extensions ['cmake', 'python']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extension 'cmake'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extension 'python'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extensions ['python_setup_py']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers) by extension 'python_setup_py'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/build) by extensions ['ignore', 'ignore_ament_install']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/build) by extension 'ignore'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/build) ignored
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/digger_motor_node) by extensions ['ignore', 'ignore_ament_install']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/digger_motor_node) by extension 'ignore'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/digger_motor_node) by extension 'ignore_ament_install'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/digger_motor_node) by extensions ['colcon_pkg']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/digger_motor_node) by extension 'colcon_pkg'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/digger_motor_node) by extensions ['colcon_meta']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/digger_motor_node) by extension 'colcon_meta'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/digger_motor_node) by extensions ['ros']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/digger_motor_node) by extension 'ros'
+[3.060s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_controllers/digger_motor_node' with type 'ros.ament_python' and name 'digger_motor_node'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/install) by extensions ['ignore', 'ignore_ament_install']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/install) by extension 'ignore'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/install) ignored
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/log) by extensions ['ignore', 'ignore_ament_install']
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/log) by extension 'ignore'
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/log) ignored
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/maxon_motor_node) by extensions ['ignore', 'ignore_ament_install']
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/maxon_motor_node) by extension 'ignore'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/maxon_motor_node) by extension 'ignore_ament_install'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/maxon_motor_node) by extensions ['colcon_pkg']
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/maxon_motor_node) by extension 'colcon_pkg'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/maxon_motor_node) by extensions ['colcon_meta']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/maxon_motor_node) by extension 'colcon_meta'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/maxon_motor_node) by extensions ['ros']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/maxon_motor_node) by extension 'ros'
+[3.071s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_controllers/maxon_motor_node' with type 'ros.ament_python' and name 'maxon_motor_node'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/stepper_motor) by extensions ['ignore', 'ignore_ament_install']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/stepper_motor) by extension 'ignore'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/stepper_motor) by extension 'ignore_ament_install'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/stepper_motor) by extensions ['colcon_pkg']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/stepper_motor) by extension 'colcon_pkg'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/stepper_motor) by extensions ['colcon_meta']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/stepper_motor) by extension 'colcon_meta'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/stepper_motor) by extensions ['ros']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controllers/stepper_motor) by extension 'ros'
+[3.076s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_controllers/stepper_motor' with type 'ros.ament_python' and name 'stepper_motor'
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['ignore', 'ignore_ament_install']
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'ignore'
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'ignore_ament_install'
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['colcon_pkg']
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'colcon_pkg'
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['colcon_meta']
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'colcon_meta'
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['ros']
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'ros'
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['cmake', 'python']
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'cmake'
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'python'
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extensions ['python_setup_py']
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense) by extension 'python_setup_py'
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_examples) by extensions ['ignore', 'ignore_ament_install']
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_examples) by extension 'ignore'
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_examples) by extension 'ignore_ament_install'
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_examples) by extensions ['colcon_pkg']
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_examples) by extension 'colcon_pkg'
+[3.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_examples) by extensions ['colcon_meta']
+[3.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_examples) by extension 'colcon_meta'
+[3.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_examples) by extensions ['ros']
+[3.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_examples) by extension 'ros'
+[3.089s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_intel_realsense/realsense_examples' with type 'ros.ament_cmake' and name 'realsense_examples'
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_msgs) by extension 'ignore'
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_msgs) by extension 'ignore_ament_install'
+[3.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_msgs) by extensions ['colcon_pkg']
+[3.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_msgs) by extension 'colcon_pkg'
+[3.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_msgs) by extensions ['colcon_meta']
+[3.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_msgs) by extension 'colcon_meta'
+[3.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_msgs) by extensions ['ros']
+[3.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_msgs) by extension 'ros'
+[3.094s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_intel_realsense/realsense_msgs' with type 'ros.ament_cmake' and name 'realsense_msgs'
+[3.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_node) by extensions ['ignore', 'ignore_ament_install']
+[3.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_node) by extension 'ignore'
+[3.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_node) by extension 'ignore_ament_install'
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_node) by extensions ['colcon_pkg']
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_node) by extension 'colcon_pkg'
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_node) by extensions ['colcon_meta']
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_node) by extension 'colcon_meta'
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_node) by extensions ['ros']
+[3.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_node) by extension 'ros'
+[3.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_intel_realsense/realsense_node' with type 'ros.ament_cmake' and name 'realsense_node'
+[3.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros) by extension 'ignore'
+[3.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros) by extension 'ignore_ament_install'
+[3.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros) by extensions ['colcon_pkg']
+[3.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros) by extension 'colcon_pkg'
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros) by extensions ['colcon_meta']
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros) by extension 'colcon_meta'
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros) by extensions ['ros']
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_intel_realsense/realsense_ros) by extension 'ros'
+[3.111s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_intel_realsense/realsense_ros' with type 'ros.ament_cmake' and name 'realsense_ros'
+[3.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_node) by extensions ['ignore', 'ignore_ament_install']
+[3.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_node) by extension 'ignore'
+[3.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_node) by extension 'ignore_ament_install'
+[3.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_node) by extensions ['colcon_pkg']
+[3.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_node) by extension 'colcon_pkg'
+[3.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_node) by extensions ['colcon_meta']
+[3.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_node) by extension 'colcon_meta'
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_node) by extensions ['ros']
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_node) by extension 'ros'
+[3.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_node' with type 'ros.ament_python' and name 'teleop_node'
+[3.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.296s] Level 5:colcon.colcon_core.verb:set package 'YAML_CPP' build argument 'cmake_args' from command line to 'None'
+[3.296s] Level 5:colcon.colcon_core.verb:set package 'YAML_CPP' build argument 'cmake_target' from command line to 'None'
+[3.296s] Level 5:colcon.colcon_core.verb:set package 'YAML_CPP' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.296s] Level 5:colcon.colcon_core.verb:set package 'YAML_CPP' build argument 'cmake_clean_cache' from command line to 'False'
+[3.296s] Level 5:colcon.colcon_core.verb:set package 'YAML_CPP' build argument 'cmake_clean_first' from command line to 'False'
+[3.297s] Level 5:colcon.colcon_core.verb:set package 'YAML_CPP' build argument 'cmake_force_configure' from command line to 'False'
+[3.297s] Level 5:colcon.colcon_core.verb:set package 'YAML_CPP' build argument 'ament_cmake_args' from command line to 'None'
+[3.297s] Level 5:colcon.colcon_core.verb:set package 'YAML_CPP' build argument 'catkin_cmake_args' from command line to 'None'
+[3.297s] Level 5:colcon.colcon_core.verb:set package 'YAML_CPP' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.297s] DEBUG:colcon.colcon_core.verb:Building package 'YAML_CPP' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/YAML_CPP', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/YAML_CPP', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6', 'symlink_install': False, 'test_result_base': None}
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'digger_motor_node' build argument 'cmake_args' from command line to 'None'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'digger_motor_node' build argument 'cmake_target' from command line to 'None'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'digger_motor_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.316s] Level 5:colcon.colcon_core.verb:set package 'digger_motor_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.316s] Level 5:colcon.colcon_core.verb:set package 'digger_motor_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.316s] Level 5:colcon.colcon_core.verb:set package 'digger_motor_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.316s] Level 5:colcon.colcon_core.verb:set package 'digger_motor_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.316s] Level 5:colcon.colcon_core.verb:set package 'digger_motor_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.316s] Level 5:colcon.colcon_core.verb:set package 'digger_motor_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.317s] DEBUG:colcon.colcon_core.verb:Building package 'digger_motor_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/digger_motor_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/digger_motor_node', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/src/motor_controllers/digger_motor_node', 'symlink_install': False, 'test_result_base': None}
+[3.334s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_msgs' build argument 'cmake_args' from command line to 'None'
+[3.334s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_msgs' build argument 'cmake_target' from command line to 'None'
+[3.334s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.335s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.335s] DEBUG:colcon.colcon_core.verb:Building package 'motion_controller_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/motion_controller_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/motion_controller_msgs', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/src/motion_controller/motion_controller_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'realsense_msgs' build argument 'cmake_args' from command line to 'None'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'realsense_msgs' build argument 'cmake_target' from command line to 'None'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'realsense_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'realsense_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'realsense_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'realsense_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'realsense_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'realsense_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'realsense_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.355s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/realsense_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/realsense_msgs', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/src/ros2_intel_realsense/realsense_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'teleop_node' build argument 'cmake_args' from command line to 'None'
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'teleop_node' build argument 'cmake_target' from command line to 'None'
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'teleop_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'teleop_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'teleop_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'teleop_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'teleop_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'teleop_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'teleop_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.373s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/teleop_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/teleop_node', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/src/teleop_node', 'symlink_install': False, 'test_result_base': None}
+[3.394s] Level 5:colcon.colcon_core.verb:set package 'maxon_motor_node' build argument 'cmake_args' from command line to 'None'
+[3.394s] Level 5:colcon.colcon_core.verb:set package 'maxon_motor_node' build argument 'cmake_target' from command line to 'None'
+[3.394s] Level 5:colcon.colcon_core.verb:set package 'maxon_motor_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'maxon_motor_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'maxon_motor_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'maxon_motor_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'maxon_motor_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'maxon_motor_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'maxon_motor_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.395s] DEBUG:colcon.colcon_core.verb:Building package 'maxon_motor_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/maxon_motor_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/maxon_motor_node', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/src/motor_controllers/maxon_motor_node', 'symlink_install': False, 'test_result_base': None}
+[3.413s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_node' build argument 'cmake_args' from command line to 'None'
+[3.413s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_node' build argument 'cmake_target' from command line to 'None'
+[3.413s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.413s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.414s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.414s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.414s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.414s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.414s] Level 5:colcon.colcon_core.verb:set package 'motion_controller_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.414s] DEBUG:colcon.colcon_core.verb:Building package 'motion_controller_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/motion_controller_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/motion_controller_node', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/src/motion_controller/motion_controller_node', 'symlink_install': False, 'test_result_base': None}
+[3.432s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros' build argument 'cmake_args' from command line to 'None'
+[3.432s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros' build argument 'cmake_target' from command line to 'None'
+[3.432s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.432s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[3.433s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros' build argument 'cmake_clean_first' from command line to 'False'
+[3.433s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros' build argument 'cmake_force_configure' from command line to 'False'
+[3.433s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros' build argument 'ament_cmake_args' from command line to 'None'
+[3.433s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[3.433s] Level 5:colcon.colcon_core.verb:set package 'realsense_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.433s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/realsense_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/realsense_ros', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/src/ros2_intel_realsense/realsense_ros', 'symlink_install': False, 'test_result_base': None}
+[3.450s] Level 5:colcon.colcon_core.verb:set package 'stepper_motor' build argument 'cmake_args' from command line to 'None'
+[3.450s] Level 5:colcon.colcon_core.verb:set package 'stepper_motor' build argument 'cmake_target' from command line to 'None'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'stepper_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'stepper_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'stepper_motor' build argument 'cmake_clean_first' from command line to 'False'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'stepper_motor' build argument 'cmake_force_configure' from command line to 'False'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'stepper_motor' build argument 'ament_cmake_args' from command line to 'None'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'stepper_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[3.451s] Level 5:colcon.colcon_core.verb:set package 'stepper_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.452s] DEBUG:colcon.colcon_core.verb:Building package 'stepper_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/stepper_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/stepper_motor', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/src/motor_controllers/stepper_motor', 'symlink_install': False, 'test_result_base': None}
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'realsense_node' build argument 'cmake_args' from command line to 'None'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'realsense_node' build argument 'cmake_target' from command line to 'None'
+[3.469s] Level 5:colcon.colcon_core.verb:set package 'realsense_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.470s] Level 5:colcon.colcon_core.verb:set package 'realsense_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.470s] Level 5:colcon.colcon_core.verb:set package 'realsense_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.470s] Level 5:colcon.colcon_core.verb:set package 'realsense_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.470s] Level 5:colcon.colcon_core.verb:set package 'realsense_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.470s] Level 5:colcon.colcon_core.verb:set package 'realsense_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.470s] Level 5:colcon.colcon_core.verb:set package 'realsense_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.470s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/realsense_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/realsense_node', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/src/ros2_intel_realsense/realsense_node', 'symlink_install': False, 'test_result_base': None}
+[3.487s] Level 5:colcon.colcon_core.verb:set package 'realsense_examples' build argument 'cmake_args' from command line to 'None'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'realsense_examples' build argument 'cmake_target' from command line to 'None'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'realsense_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'realsense_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'realsense_examples' build argument 'cmake_clean_first' from command line to 'False'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'realsense_examples' build argument 'cmake_force_configure' from command line to 'False'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'realsense_examples' build argument 'ament_cmake_args' from command line to 'None'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'realsense_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[3.489s] Level 5:colcon.colcon_core.verb:set package 'realsense_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.489s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usr/usr_ws_2020/build/realsense_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usr/usr_ws_2020/install/realsense_examples', 'merge_install': False, 'path': '/home/usr/usr_ws_2020/src/ros2_intel_realsense/realsense_examples', 'symlink_install': False, 'test_result_base': None}
+[3.490s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.502s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usr/usr_ws_2020/src/motion_controller/motion_controller_msgs' with build type 'ament_cmake'
+[3.503s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usr/usr_ws_2020/src/motion_controller/motion_controller_msgs'
+[3.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.653s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usr/usr_ws_2020/src/ros2_intel_realsense/realsense_msgs' with build type 'ament_cmake'
+[3.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usr/usr_ws_2020/src/ros2_intel_realsense/realsense_msgs'
+[3.666s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.668s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.746s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6'
+[3.755s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.756s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.861s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/usr/usr_ws_2020/src/motor_controllers/digger_motor_node' with build type 'ament_python'
+[3.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('digger_motor_node', 'ament_prefix_path')
+[3.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usr/usr_ws_2020/install/digger_motor_node/share/digger_motor_node/hook/ament_prefix_path.ps1'
+[3.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usr/usr_ws_2020/install/digger_motor_node/share/digger_motor_node/hook/ament_prefix_path.dsv'
+[3.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usr/usr_ws_2020/install/digger_motor_node/share/digger_motor_node/hook/ament_prefix_path.sh'
+[3.888s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.888s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usr/usr_ws_2020/build/motion_controller_msgs': CMAKE_PREFIX_PATH=/home/usr/usr_ws_2020/install/realsense_msgs:/home/usr/usr_ws_2020/install/motion_controller_node:/home/usr/usr_ws_2020/install/motion_controller_msgs:/home/usr/usr_ws_2020/install/YAML_CPP:/opt/ros/foxy/install/ros_base:/opt/ros/foxy/install/rosbag2:/opt/ros/foxy/install/rosbag2_transport:/opt/ros/foxy/install/rosbag2_compression:/opt/ros/foxy/install/zstd_vendor:/opt/ros/foxy/install/rosbag2_storage_default_plugins:/opt/ros/foxy/install/rosbag2_converter_default_plugins:/opt/ros/foxy/install/rosbag2_cpp:/opt/ros/foxy/install/rosbag2_storage:/opt/ros/foxy/install/yaml_cpp_vendor:/opt/ros/foxy/install/ros_core:/opt/ros/foxy/install/common_interfaces:/opt/ros/foxy/install/visualization_msgs:/opt/ros/foxy/install/robot_state_publisher:/opt/ros/foxy/install/kdl_parser:/opt/ros/foxy/install/urdf:/opt/ros/foxy/install/urdfdom:/opt/ros/foxy/install/urdfdom_headers:/opt/ros/foxy/install/geometry2:/opt/ros/foxy/install/tf2_tools:/opt/ros/foxy/install/tf2_sensor_msgs:/opt/ros/foxy/install/tf2_kdl:/opt/ros/foxy/install/tf2_geometry_msgs:/opt/ros/foxy/install/tf2_eigen:/opt/ros/foxy/install/tf2_bullet:/opt/ros/foxy/install/tf2_ros:/opt/ros/foxy/install/tf2_py:/opt/ros/foxy/install/tf2_msgs:/opt/ros/foxy/install/test_msgs:/opt/ros/foxy/install/sros2_cmake:/opt/ros/foxy/install/ros_testing:/opt/ros/foxy/install/rclpy:/opt/ros/foxy/install/rclcpp_action:/opt/ros/foxy/install/rcl_action:/opt/ros/foxy/install/example_interfaces:/opt/ros/foxy/install/action_msgs:/opt/ros/foxy/install/unique_identifier_msgs:/opt/ros/foxy/install/ament_lint_common:/opt/ros/foxy/install/ament_cmake_uncrustify:/opt/ros/foxy/install/uncrustify_vendor:/opt/ros/foxy/install/trajectory_msgs:/opt/ros/foxy/install/rosbag2_test_common:/opt/ros/foxy/install/ros2lifecycle_test_fixtures:/opt/ros/foxy/install/rclcpp_lifecycle:/home/usr/usr_ws_2020/install/teleop_node:/home/usr/usr_ws_2020/install/maxon_motor_node:/home/usr/usr_ws_2020/install/joystick_ros2:/home/usr/usr_ws_2020/install/digger_motor_node:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck:/opt/ros/foxy/install/joy:/opt/ros/foxy/install/rclcpp_components:/opt/ros/foxy/install/rclcpp:/opt/ros/foxy/install/rcl_lifecycle:/opt/ros/foxy/install/libstatistics_collector:/opt/ros/foxy/install/rcl:/opt/ros/foxy/install/tracetools:/opt/ros/foxy/install/tinyxml_vendor:/opt/ros/foxy/install/pluginlib:/opt/ros/foxy/install/tinyxml2_vendor:/opt/ros/foxy/install/tf2:/opt/ros/foxy/install/test_interface_files:/opt/ros/foxy/install/stereo_msgs:/opt/ros/foxy/install/std_srvs:/opt/ros/foxy/install/shape_msgs:/opt/ros/foxy/install/sensor_msgs:/opt/ros/foxy/install/nav_msgs:/opt/ros/foxy/install/diagnostic_msgs:/opt/ros/foxy/install/geometry_msgs:/opt/ros/foxy/install/actionlib_msgs:/opt/ros/foxy/install/std_msgs:/opt/ros/foxy/install/statistics_msgs:/opt/ros/foxy/install/sqlite3_vendor:/opt/ros/foxy/install/rcl_logging_spdlog:/opt/ros/foxy/install/spdlog_vendor:/opt/ros/foxy/install/shared_queues_vendor:/opt/ros/foxy/install/sdl2_vendor:/opt/ros/foxy/install/rosgraph_msgs:/opt/ros/foxy/install/rmw_implementation:/opt/ros/foxy/install/rmw_fastrtps_cpp:/opt/ros/foxy/install/rmw_fastrtps_shared_cpp:/opt/ros/foxy/install/rmw_cyclonedds_cpp:/opt/ros/foxy/install/rmw_dds_common:/opt/ros/foxy/install/composition_interfaces:/opt/ros/foxy/install/rcl_interfaces:/opt/ros/foxy/install/lifecycle_msgs:/opt/ros/foxy/install/builtin_interfaces:/opt/ros/foxy/install/rosidl_default_runtime:/opt/ros/foxy/install/rosidl_default_generators:/opt/ros/foxy/install/rosidl_generator_py:/opt/ros/foxy/install/rosidl_typesupport_cpp:/opt/ros/foxy/install/rosidl_typesupport_introspection_cpp:/opt/ros/foxy/install/rosidl_typesupport_c:/opt/ros/foxy/install/rosidl_typesupport_introspection_c:/opt/ros/foxy/install/rosidl_typesupport_fastrtps_c:/opt/ros/foxy/install/rosidl_typesupport_fastrtps_cpp:/opt/ros/foxy/install/rmw_connext_cpp:/opt/ros/foxy/install/rosidl_typesupport_connext_c:/opt/ros/foxy/install/rosidl_typesupport_connext_cpp:/opt/ros/foxy/install/rmw:/opt/ros/foxy/install/rosidl_runtime_c:/opt/ros/foxy/install/rosidl_generator_cpp:/opt/ros/foxy/install/rosidl_generator_c:/opt/ros/foxy/install/rosidl_typesupport_interface:/opt/ros/foxy/install/rosidl_runtime_cpp:/opt/ros/foxy/install/rosidl_generator_dds_idl:/opt/ros/foxy/install/rosidl_cmake:/opt/ros/foxy/install/rosidl_parser:/opt/ros/foxy/install/rosidl_adapter:/opt/ros/foxy/install/rosbag2_tests:/opt/ros/foxy/install/ros_environment:/opt/ros/foxy/install/rmw_implementation_cmake:/opt/ros/foxy/install/rmw_connext_shared_cpp:/opt/ros/foxy/install/class_loader:/opt/ros/foxy/install/rcpputils:/opt/ros/foxy/install/rcutils:/opt/ros/foxy/install/rcl_yaml_param_parser:/opt/ros/foxy/install/launch_testing_ament_cmake:/opt/ros/foxy/install/python_cmake_module:/opt/ros/foxy/install/performance_test_fixture:/opt/ros/foxy/install/osrf_testing_tools_cpp:/opt/ros/foxy/install/orocos_kdl:/opt/ros/foxy/install/mimick_vendor:/opt/ros/foxy/install/message_filters:/opt/ros/foxy/install/libyaml_vendor:/opt/ros/foxy/install/ament_cmake_ros:/opt/ros/foxy/install/ament_cmake_gmock:/opt/ros/foxy/install/gmock_vendor:/opt/ros/foxy/install/ament_cmake_gtest:/opt/ros/foxy/install/gtest_vendor:/opt/ros/foxy/install/ament_cmake_google_benchmark:/opt/ros/foxy/install/google_benchmark_vendor:/opt/ros/foxy/install/fastrtps:/opt/ros/foxy/install/foonathan_memory_vendor:/opt/ros/foxy/install/fastrtps_cmake_module:/opt/ros/foxy/install/fastcdr:/opt/ros/foxy/install/eigen3_cmake_module:/opt/ros/foxy/install/cyclonedds:/opt/ros/foxy/install/console_bridge_vendor:/opt/ros/foxy/install/connext_cmake_module:/opt/ros/foxy/install/ament_cmake_xmllint:/opt/ros/foxy/install/ament_cmake_pep257:/opt/ros/foxy/install/ament_lint_auto:/opt/ros/foxy/install/ament_cmake_auto:/opt/ros/foxy/install/ament_cmake:/opt/ros/foxy/install/ament_cmake_version:/opt/ros/foxy/install/ament_cmake_pytest:/opt/ros/foxy/install/ament_cmake_lint_cmake:/opt/ros/foxy/install/ament_cmake_flake8:/opt/ros/foxy/install/ament_cmake_cpplint:/opt/ros/foxy/install/ament_cmake_cppcheck:/opt/ros/foxy/install/ament_cmake_copyright:/opt/ros/foxy/install/ament_cmake_test:/opt/ros/foxy/install/ament_cmake_target_dependencies:/opt/ros/foxy/install/ament_cmake_python:/opt/ros/foxy/install/ament_cmake_export_dependencies:/opt/ros/foxy/install/ament_cmake_libraries:/opt/ros/foxy/install/ament_cmake_include_directories:/opt/ros/foxy/install/ament_cmake_export_targets:/opt/ros/foxy/install/ament_cmake_export_link_flags:/opt/ros/foxy/install/ament_cmake_export_interfaces:/opt/ros/foxy/install/ament_cmake_export_libraries:/opt/ros/foxy/install/ament_cmake_export_include_directories:/opt/ros/foxy/install/ament_cmake_export_definitions:/opt/ros/foxy/install/ament_cmake_core:/opt/ros/foxy/install/ament_index_cpp /usr/bin/cmake --build /home/usr/usr_ws_2020/build/motion_controller_msgs -- -j4 -l4
+[4.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usr/usr_ws_2020/build/realsense_msgs': CMAKE_PREFIX_PATH=/home/usr/usr_ws_2020/install/realsense_msgs:/home/usr/usr_ws_2020/install/motion_controller_node:/home/usr/usr_ws_2020/install/motion_controller_msgs:/home/usr/usr_ws_2020/install/YAML_CPP:/opt/ros/foxy/install/ros_base:/opt/ros/foxy/install/rosbag2:/opt/ros/foxy/install/rosbag2_transport:/opt/ros/foxy/install/rosbag2_compression:/opt/ros/foxy/install/zstd_vendor:/opt/ros/foxy/install/rosbag2_storage_default_plugins:/opt/ros/foxy/install/rosbag2_converter_default_plugins:/opt/ros/foxy/install/rosbag2_cpp:/opt/ros/foxy/install/rosbag2_storage:/opt/ros/foxy/install/yaml_cpp_vendor:/opt/ros/foxy/install/ros_core:/opt/ros/foxy/install/common_interfaces:/opt/ros/foxy/install/visualization_msgs:/opt/ros/foxy/install/robot_state_publisher:/opt/ros/foxy/install/kdl_parser:/opt/ros/foxy/install/urdf:/opt/ros/foxy/install/urdfdom:/opt/ros/foxy/install/urdfdom_headers:/opt/ros/foxy/install/geometry2:/opt/ros/foxy/install/tf2_tools:/opt/ros/foxy/install/tf2_sensor_msgs:/opt/ros/foxy/install/tf2_kdl:/opt/ros/foxy/install/tf2_geometry_msgs:/opt/ros/foxy/install/tf2_eigen:/opt/ros/foxy/install/tf2_bullet:/opt/ros/foxy/install/tf2_ros:/opt/ros/foxy/install/tf2_py:/opt/ros/foxy/install/tf2_msgs:/opt/ros/foxy/install/test_msgs:/opt/ros/foxy/install/sros2_cmake:/opt/ros/foxy/install/ros_testing:/opt/ros/foxy/install/rclpy:/opt/ros/foxy/install/rclcpp_action:/opt/ros/foxy/install/rcl_action:/opt/ros/foxy/install/example_interfaces:/opt/ros/foxy/install/action_msgs:/opt/ros/foxy/install/unique_identifier_msgs:/opt/ros/foxy/install/ament_lint_common:/opt/ros/foxy/install/ament_cmake_uncrustify:/opt/ros/foxy/install/uncrustify_vendor:/opt/ros/foxy/install/trajectory_msgs:/opt/ros/foxy/install/rosbag2_test_common:/opt/ros/foxy/install/ros2lifecycle_test_fixtures:/opt/ros/foxy/install/rclcpp_lifecycle:/home/usr/usr_ws_2020/install/teleop_node:/home/usr/usr_ws_2020/install/maxon_motor_node:/home/usr/usr_ws_2020/install/joystick_ros2:/home/usr/usr_ws_2020/install/digger_motor_node:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck:/opt/ros/foxy/install/joy:/opt/ros/foxy/install/rclcpp_components:/opt/ros/foxy/install/rclcpp:/opt/ros/foxy/install/rcl_lifecycle:/opt/ros/foxy/install/libstatistics_collector:/opt/ros/foxy/install/rcl:/opt/ros/foxy/install/tracetools:/opt/ros/foxy/install/tinyxml_vendor:/opt/ros/foxy/install/pluginlib:/opt/ros/foxy/install/tinyxml2_vendor:/opt/ros/foxy/install/tf2:/opt/ros/foxy/install/test_interface_files:/opt/ros/foxy/install/stereo_msgs:/opt/ros/foxy/install/std_srvs:/opt/ros/foxy/install/shape_msgs:/opt/ros/foxy/install/sensor_msgs:/opt/ros/foxy/install/nav_msgs:/opt/ros/foxy/install/diagnostic_msgs:/opt/ros/foxy/install/geometry_msgs:/opt/ros/foxy/install/actionlib_msgs:/opt/ros/foxy/install/std_msgs:/opt/ros/foxy/install/statistics_msgs:/opt/ros/foxy/install/sqlite3_vendor:/opt/ros/foxy/install/rcl_logging_spdlog:/opt/ros/foxy/install/spdlog_vendor:/opt/ros/foxy/install/shared_queues_vendor:/opt/ros/foxy/install/sdl2_vendor:/opt/ros/foxy/install/rosgraph_msgs:/opt/ros/foxy/install/rmw_implementation:/opt/ros/foxy/install/rmw_fastrtps_cpp:/opt/ros/foxy/install/rmw_fastrtps_shared_cpp:/opt/ros/foxy/install/rmw_cyclonedds_cpp:/opt/ros/foxy/install/rmw_dds_common:/opt/ros/foxy/install/composition_interfaces:/opt/ros/foxy/install/rcl_interfaces:/opt/ros/foxy/install/lifecycle_msgs:/opt/ros/foxy/install/builtin_interfaces:/opt/ros/foxy/install/rosidl_default_runtime:/opt/ros/foxy/install/rosidl_default_generators:/opt/ros/foxy/install/rosidl_generator_py:/opt/ros/foxy/install/rosidl_typesupport_cpp:/opt/ros/foxy/install/rosidl_typesupport_introspection_cpp:/opt/ros/foxy/install/rosidl_typesupport_c:/opt/ros/foxy/install/rosidl_typesupport_introspection_c:/opt/ros/foxy/install/rosidl_typesupport_fastrtps_c:/opt/ros/foxy/install/rosidl_typesupport_fastrtps_cpp:/opt/ros/foxy/install/rmw_connext_cpp:/opt/ros/foxy/install/rosidl_typesupport_connext_c:/opt/ros/foxy/install/rosidl_typesupport_connext_cpp:/opt/ros/foxy/install/rmw:/opt/ros/foxy/install/rosidl_runtime_c:/opt/ros/foxy/install/rosidl_generator_cpp:/opt/ros/foxy/install/rosidl_generator_c:/opt/ros/foxy/install/rosidl_typesupport_interface:/opt/ros/foxy/install/rosidl_runtime_cpp:/opt/ros/foxy/install/rosidl_generator_dds_idl:/opt/ros/foxy/install/rosidl_cmake:/opt/ros/foxy/install/rosidl_parser:/opt/ros/foxy/install/rosidl_adapter:/opt/ros/foxy/install/rosbag2_tests:/opt/ros/foxy/install/ros_environment:/opt/ros/foxy/install/rmw_implementation_cmake:/opt/ros/foxy/install/rmw_connext_shared_cpp:/opt/ros/foxy/install/class_loader:/opt/ros/foxy/install/rcpputils:/opt/ros/foxy/install/rcutils:/opt/ros/foxy/install/rcl_yaml_param_parser:/opt/ros/foxy/install/launch_testing_ament_cmake:/opt/ros/foxy/install/python_cmake_module:/opt/ros/foxy/install/performance_test_fixture:/opt/ros/foxy/install/osrf_testing_tools_cpp:/opt/ros/foxy/install/orocos_kdl:/opt/ros/foxy/install/mimick_vendor:/opt/ros/foxy/install/message_filters:/opt/ros/foxy/install/libyaml_vendor:/opt/ros/foxy/install/ament_cmake_ros:/opt/ros/foxy/install/ament_cmake_gmock:/opt/ros/foxy/install/gmock_vendor:/opt/ros/foxy/install/ament_cmake_gtest:/opt/ros/foxy/install/gtest_vendor:/opt/ros/foxy/install/ament_cmake_google_benchmark:/opt/ros/foxy/install/google_benchmark_vendor:/opt/ros/foxy/install/fastrtps:/opt/ros/foxy/install/foonathan_memory_vendor:/opt/ros/foxy/install/fastrtps_cmake_module:/opt/ros/foxy/install/fastcdr:/opt/ros/foxy/install/eigen3_cmake_module:/opt/ros/foxy/install/cyclonedds:/opt/ros/foxy/install/console_bridge_vendor:/opt/ros/foxy/install/connext_cmake_module:/opt/ros/foxy/install/ament_cmake_xmllint:/opt/ros/foxy/install/ament_cmake_pep257:/opt/ros/foxy/install/ament_lint_auto:/opt/ros/foxy/install/ament_cmake_auto:/opt/ros/foxy/install/ament_cmake:/opt/ros/foxy/install/ament_cmake_version:/opt/ros/foxy/install/ament_cmake_pytest:/opt/ros/foxy/install/ament_cmake_lint_cmake:/opt/ros/foxy/install/ament_cmake_flake8:/opt/ros/foxy/install/ament_cmake_cpplint:/opt/ros/foxy/install/ament_cmake_cppcheck:/opt/ros/foxy/install/ament_cmake_copyright:/opt/ros/foxy/install/ament_cmake_test:/opt/ros/foxy/install/ament_cmake_target_dependencies:/opt/ros/foxy/install/ament_cmake_python:/opt/ros/foxy/install/ament_cmake_export_dependencies:/opt/ros/foxy/install/ament_cmake_libraries:/opt/ros/foxy/install/ament_cmake_include_directories:/opt/ros/foxy/install/ament_cmake_export_targets:/opt/ros/foxy/install/ament_cmake_export_link_flags:/opt/ros/foxy/install/ament_cmake_export_interfaces:/opt/ros/foxy/install/ament_cmake_export_libraries:/opt/ros/foxy/install/ament_cmake_export_include_directories:/opt/ros/foxy/install/ament_cmake_export_definitions:/opt/ros/foxy/install/ament_cmake_core:/opt/ros/foxy/install/ament_index_cpp /usr/bin/cmake --build /home/usr/usr_ws_2020/build/realsense_msgs -- -j4 -l4
+[4.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usr/usr_ws_2020/build/YAML_CPP': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP -- -j4 -l4
+[4.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[4.178s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[4.213s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[4.213s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.217s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.309s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.482s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usr/usr_ws_2020/install/local_setup.ps1'
+[4.508s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usr/usr_ws_2020/install/_local_setup_util_ps1.py'
+[4.527s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usr/usr_ws_2020/install/setup.ps1'
+[4.620s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usr/usr_ws_2020/install/local_setup.sh'
+[4.628s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usr/usr_ws_2020/install/_local_setup_util_sh.py'
+[4.630s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usr/usr_ws_2020/install/setup.sh'
+[4.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usr/usr_ws_2020/install/local_setup.bash'
+[4.715s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usr/usr_ws_2020/install/setup.bash'
+[4.854s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usr/usr_ws_2020/install/local_setup.zsh'
+[4.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usr/usr_ws_2020/install/setup.zsh'

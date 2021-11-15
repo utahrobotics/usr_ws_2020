@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing teleop_node.egg-info/PKG-INFO
+writing dependency_links to teleop_node.egg-info/dependency_links.txt
+writing entry points to teleop_node.egg-info/entry_points.txt
+writing requirements to teleop_node.egg-info/requires.txt
+writing top-level names to teleop_node.egg-info/top_level.txt
+reading manifest file 'teleop_node.egg-info/SOURCES.txt'
+writing manifest file 'teleop_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop-node.egg-link (link to .)
+Installing teleop script to /home/usr/usr_ws_2020/install/teleop_node/lib/teleop_node
+
+Installed /home/usr/usr_ws_2020/build/teleop_node
+running install_data

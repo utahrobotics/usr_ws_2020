@@ -1,0 +1,1 @@
+/home/usr/usr_ws_2020/build/motion_controller_node/ament_cmake_core/motion_controller_nodeConfig-version.cmake

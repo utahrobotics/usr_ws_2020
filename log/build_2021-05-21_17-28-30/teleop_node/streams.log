@@ -1,0 +1,42 @@
+[2.071s] Invoking command in '/home/usr/usr_ws_2020/build/teleop_node': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/teleop_node --uninstall --editable --build-directory /home/usr/usr_ws_2020/build/teleop_node/build
+[3.753s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.753s]   % (opt, underscore_opt))
+[3.754s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.754s]   % (opt, underscore_opt))
+[4.045s] running develop
+[4.810s] Removing /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop-node.egg-link (link to .)
+[4.931s] Invoked command in '/home/usr/usr_ws_2020/build/teleop_node' returned '0': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/teleop_node --uninstall --editable --build-directory /home/usr/usr_ws_2020/build/teleop_node/build
+[4.936s] Invoking command in '/home/usr/usr_ws_2020/src/teleop_node': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_node build --build-base /home/usr/usr_ws_2020/build/teleop_node/build install --prefix /home/usr/usr_ws_2020/install/teleop_node --record /home/usr/usr_ws_2020/build/teleop_node/install.log --single-version-externally-managed
+[6.564s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.564s]   % (opt, underscore_opt))
+[6.565s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[6.565s]   % (opt, underscore_opt))
+[6.710s] running egg_info
+[6.714s] writing ../../build/teleop_node/teleop_node.egg-info/PKG-INFO
+[6.716s] writing dependency_links to ../../build/teleop_node/teleop_node.egg-info/dependency_links.txt
+[6.717s] writing entry points to ../../build/teleop_node/teleop_node.egg-info/entry_points.txt
+[6.717s] writing requirements to ../../build/teleop_node/teleop_node.egg-info/requires.txt
+[6.717s] writing top-level names to ../../build/teleop_node/teleop_node.egg-info/top_level.txt
+[6.922s] reading manifest file '../../build/teleop_node/teleop_node.egg-info/SOURCES.txt'
+[6.924s] writing manifest file '../../build/teleop_node/teleop_node.egg-info/SOURCES.txt'
+[6.927s] running build
+[6.928s] running build_py
+[6.930s] creating /home/usr/usr_ws_2020/build/teleop_node/build
+[6.932s] creating /home/usr/usr_ws_2020/build/teleop_node/build/lib
+[6.937s] creating /home/usr/usr_ws_2020/build/teleop_node/build/lib/teleop_node
+[6.939s] copying teleop_node/__init__.py -> /home/usr/usr_ws_2020/build/teleop_node/build/lib/teleop_node
+[6.940s] copying teleop_node/teleop.py -> /home/usr/usr_ws_2020/build/teleop_node/build/lib/teleop_node
+[6.941s] running install
+[6.942s] running install_lib
+[6.944s] creating /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop_node
+[6.945s] copying /home/usr/usr_ws_2020/build/teleop_node/build/lib/teleop_node/__init__.py -> /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop_node
+[6.947s] copying /home/usr/usr_ws_2020/build/teleop_node/build/lib/teleop_node/teleop.py -> /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop_node
+[6.948s] byte-compiling /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop_node/__init__.py to __init__.cpython-36.pyc
+[6.953s] byte-compiling /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop_node/teleop.py to teleop.cpython-36.pyc
+[6.954s] running install_data
+[6.956s] running install_egg_info
+[6.957s] Copying ../../build/teleop_node/teleop_node.egg-info to /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop_node-0.0.0-py3.6.egg-info
+[6.966s] running install_scripts
+[7.083s] Installing teleop script to /home/usr/usr_ws_2020/install/teleop_node/lib/teleop_node
+[7.084s] writing list of installed files to '/home/usr/usr_ws_2020/build/teleop_node/install.log'
+[9.098s] Invoked command in '/home/usr/usr_ws_2020/src/teleop_node' returned '0': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_node build --build-base /home/usr/usr_ws_2020/build/teleop_node/build install --prefix /home/usr/usr_ws_2020/install/teleop_node --record /home/usr/usr_ws_2020/build/teleop_node/install.log --single-version-externally-managed

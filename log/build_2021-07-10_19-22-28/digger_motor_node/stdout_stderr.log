@@ -1,0 +1,16 @@
+/home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  % (opt, underscore_opt))
+/home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  % (opt, underscore_opt))
+running develop
+/home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  % (opt, underscore_opt))
+/home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  % (opt, underscore_opt))
+running egg_info
+writing ../../../build/digger_motor_node/digger_motor_node.egg-info/PKG-INFO
+writing dependency_links to ../../../build/digger_motor_node/digger_motor_node.egg-info/dependency_links.txt
+writing entry points to ../../../build/digger_motor_node/digger_motor_node.egg-info/entry_points.txt
+writing requirements to ../../../build/digger_motor_node/digger_motor_node.egg-info/requires.txt
+writing top-level names to ../../../build/digger_motor_node/digger_motor_node.egg-info/top_level.txt
+error: package directory 'VESC' does not exist

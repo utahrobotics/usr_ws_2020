@@ -1,0 +1,1 @@
+/home/usr/usr_ws_2020/build/motion_controller_msgs/ament_cmake_environment_hooks/local_setup.sh

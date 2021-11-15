@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/usr/usr_ws_2020/build/motion_controller_msgs/rosidl_generator_py/motion_controller_msgs/motion_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" "TARGETS" "motion_controller_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.6/site-packages/motion_controller_msgs")

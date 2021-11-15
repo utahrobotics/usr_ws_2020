@@ -1,0 +1,28 @@
+[1.857s] Invoking command in '/home/usr/usr_ws_2020/build/teleop_node': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/teleop_node --editable --build-directory /home/usr/usr_ws_2020/build/teleop_node/build --no-deps install_data --install-dir /home/usr/usr_ws_2020/install/teleop_node
+[3.534s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.535s]   % (opt, underscore_opt))
+[3.536s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.536s]   % (opt, underscore_opt))
+[4.065s] running develop
+[5.473s] running egg_info
+[5.474s] creating teleop_node.egg-info
+[5.474s] writing teleop_node.egg-info/PKG-INFO
+[5.475s] writing dependency_links to teleop_node.egg-info/dependency_links.txt
+[5.476s] writing entry points to teleop_node.egg-info/entry_points.txt
+[5.477s] writing requirements to teleop_node.egg-info/requires.txt
+[5.477s] writing top-level names to teleop_node.egg-info/top_level.txt
+[5.498s] writing manifest file 'teleop_node.egg-info/SOURCES.txt'
+[5.785s] reading manifest file 'teleop_node.egg-info/SOURCES.txt'
+[5.788s] writing manifest file 'teleop_node.egg-info/SOURCES.txt'
+[5.836s] running build_ext
+[5.836s] Creating /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop-node.egg-link (link to .)
+[5.841s] Installing teleop script to /home/usr/usr_ws_2020/install/teleop_node/lib/teleop_node
+[5.842s] 
+[5.842s] Installed /home/usr/usr_ws_2020/build/teleop_node
+[5.844s] running install_data
+[5.845s] creating /home/usr/usr_ws_2020/install/teleop_node/share/ament_index
+[5.846s] creating /home/usr/usr_ws_2020/install/teleop_node/share/ament_index/resource_index
+[5.846s] creating /home/usr/usr_ws_2020/install/teleop_node/share/ament_index/resource_index/packages
+[5.847s] copying resource/teleop_node -> /home/usr/usr_ws_2020/install/teleop_node/share/ament_index/resource_index/packages
+[5.851s] copying package.xml -> /home/usr/usr_ws_2020/install/teleop_node/share/teleop_node
+[6.072s] Invoked command in '/home/usr/usr_ws_2020/build/teleop_node' returned '0': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/teleop_node --editable --build-directory /home/usr/usr_ws_2020/build/teleop_node/build --no-deps install_data --install-dir /home/usr/usr_ws_2020/install/teleop_node

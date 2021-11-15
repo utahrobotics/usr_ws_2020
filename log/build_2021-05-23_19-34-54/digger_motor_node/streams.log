@@ -1,0 +1,32 @@
+[4.382s] Invoking command in '/home/usr/usr_ws_2020/build/digger_motor_node': PYTHONPATH=/home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/digger_motor_node --uninstall --editable --build-directory /home/usr/usr_ws_2020/build/digger_motor_node/build
+[5.929s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.930s]   % (opt, underscore_opt))
+[5.930s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[5.931s]   % (opt, underscore_opt))
+[6.214s] running develop
+[7.178s] Invoked command in '/home/usr/usr_ws_2020/build/digger_motor_node' returned '0': PYTHONPATH=/home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/digger_motor_node --uninstall --editable --build-directory /home/usr/usr_ws_2020/build/digger_motor_node/build
+[7.183s] Invoking command in '/home/usr/usr_ws_2020/src/motor_controllers/digger_motor_node': PYTHONPATH=/home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/digger_motor_node build --build-base /home/usr/usr_ws_2020/build/digger_motor_node/build install --prefix /home/usr/usr_ws_2020/install/digger_motor_node --record /home/usr/usr_ws_2020/build/digger_motor_node/install.log --single-version-externally-managed
+[9.269s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[9.269s]   % (opt, underscore_opt))
+[9.270s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[9.270s]   % (opt, underscore_opt))
+[9.453s] running egg_info
+[9.457s] writing ../../../build/digger_motor_node/digger_motor_node.egg-info/PKG-INFO
+[9.457s] writing dependency_links to ../../../build/digger_motor_node/digger_motor_node.egg-info/dependency_links.txt
+[9.458s] writing entry points to ../../../build/digger_motor_node/digger_motor_node.egg-info/entry_points.txt
+[9.458s] writing requirements to ../../../build/digger_motor_node/digger_motor_node.egg-info/requires.txt
+[9.458s] writing top-level names to ../../../build/digger_motor_node/digger_motor_node.egg-info/top_level.txt
+[9.657s] reading manifest file '../../../build/digger_motor_node/digger_motor_node.egg-info/SOURCES.txt'
+[9.665s] writing manifest file '../../../build/digger_motor_node/digger_motor_node.egg-info/SOURCES.txt'
+[9.666s] running build
+[9.666s] running build_py
+[9.667s] running install
+[9.667s] running install_lib
+[9.681s] running install_data
+[9.683s] running install_egg_info
+[9.698s] removing '/home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages/digger_motor_node-0.0.0-py3.6.egg-info' (and everything under it)
+[9.715s] Copying ../../../build/digger_motor_node/digger_motor_node.egg-info to /home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages/digger_motor_node-0.0.0-py3.6.egg-info
+[9.715s] running install_scripts
+[9.827s] Installing digger_motor_controller script to /home/usr/usr_ws_2020/install/digger_motor_node/lib/digger_motor_node
+[9.828s] writing list of installed files to '/home/usr/usr_ws_2020/build/digger_motor_node/install.log'
+[9.951s] Invoked command in '/home/usr/usr_ws_2020/src/motor_controllers/digger_motor_node' returned '0': PYTHONPATH=/home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/digger_motor_node build --build-base /home/usr/usr_ws_2020/build/digger_motor_node/build install --prefix /home/usr/usr_ws_2020/install/digger_motor_node --record /home/usr/usr_ws_2020/build/digger_motor_node/install.log --single-version-externally-managed

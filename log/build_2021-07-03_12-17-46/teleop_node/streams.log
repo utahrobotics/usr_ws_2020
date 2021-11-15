@@ -1,0 +1,32 @@
+[4.239s] Invoking command in '/home/usr/usr_ws_2020/build/teleop_node': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/teleop_node --uninstall --editable --build-directory /home/usr/usr_ws_2020/build/teleop_node/build
+[6.282s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.283s]   % (opt, underscore_opt))
+[6.286s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[6.287s]   % (opt, underscore_opt))
+[6.562s] running develop
+[7.465s] Invoked command in '/home/usr/usr_ws_2020/build/teleop_node' returned '0': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/teleop_node --uninstall --editable --build-directory /home/usr/usr_ws_2020/build/teleop_node/build
+[7.467s] Invoking command in '/home/usr/usr_ws_2020/src/teleop_node': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_node build --build-base /home/usr/usr_ws_2020/build/teleop_node/build install --prefix /home/usr/usr_ws_2020/install/teleop_node --record /home/usr/usr_ws_2020/build/teleop_node/install.log --single-version-externally-managed
+[8.908s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.910s]   % (opt, underscore_opt))
+[8.910s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[8.911s]   % (opt, underscore_opt))
+[9.056s] running egg_info
+[9.057s] writing ../../build/teleop_node/teleop_node.egg-info/PKG-INFO
+[9.059s] writing dependency_links to ../../build/teleop_node/teleop_node.egg-info/dependency_links.txt
+[9.060s] writing entry points to ../../build/teleop_node/teleop_node.egg-info/entry_points.txt
+[9.061s] writing requirements to ../../build/teleop_node/teleop_node.egg-info/requires.txt
+[9.061s] writing top-level names to ../../build/teleop_node/teleop_node.egg-info/top_level.txt
+[9.240s] reading manifest file '../../build/teleop_node/teleop_node.egg-info/SOURCES.txt'
+[9.241s] writing manifest file '../../build/teleop_node/teleop_node.egg-info/SOURCES.txt'
+[9.241s] running build
+[9.242s] running build_py
+[9.242s] running install
+[9.243s] running install_lib
+[9.251s] running install_data
+[9.252s] running install_egg_info
+[9.264s] removing '/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop_node-0.0.0-py3.6.egg-info' (and everything under it)
+[9.264s] Copying ../../build/teleop_node/teleop_node.egg-info to /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop_node-0.0.0-py3.6.egg-info
+[9.266s] running install_scripts
+[9.367s] Installing teleop script to /home/usr/usr_ws_2020/install/teleop_node/lib/teleop_node
+[9.381s] writing list of installed files to '/home/usr/usr_ws_2020/build/teleop_node/install.log'
+[11.254s] Invoked command in '/home/usr/usr_ws_2020/src/teleop_node' returned '0': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_node build --build-base /home/usr/usr_ws_2020/build/teleop_node/build install --prefix /home/usr/usr_ws_2020/install/teleop_node --record /home/usr/usr_ws_2020/build/teleop_node/install.log --single-version-externally-managed

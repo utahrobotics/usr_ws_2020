@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating digger_motor_node.egg-info
+writing digger_motor_node.egg-info/PKG-INFO
+writing dependency_links to digger_motor_node.egg-info/dependency_links.txt
+writing entry points to digger_motor_node.egg-info/entry_points.txt
+writing requirements to digger_motor_node.egg-info/requires.txt
+writing top-level names to digger_motor_node.egg-info/top_level.txt
+writing manifest file 'digger_motor_node.egg-info/SOURCES.txt'
+reading manifest file 'digger_motor_node.egg-info/SOURCES.txt'
+writing manifest file 'digger_motor_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages/digger-motor-node.egg-link (link to .)
+Installing digger_motor_controller script to /home/usr/usr_ws_2020/install/digger_motor_node/lib/digger_motor_node
+
+Installed /home/usr/usr_ws_2020/build/digger_motor_node
+running install_data
+creating /home/usr/usr_ws_2020/install/digger_motor_node/share/ament_index
+creating /home/usr/usr_ws_2020/install/digger_motor_node/share/ament_index/resource_index
+creating /home/usr/usr_ws_2020/install/digger_motor_node/share/ament_index/resource_index/packages
+copying resource/digger_motor_node -> /home/usr/usr_ws_2020/install/digger_motor_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/usr/usr_ws_2020/install/digger_motor_node/share/digger_motor_node

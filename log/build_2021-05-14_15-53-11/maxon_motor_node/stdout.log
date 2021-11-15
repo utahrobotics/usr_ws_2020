@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing maxon_motor_node.egg-info/PKG-INFO
+writing dependency_links to maxon_motor_node.egg-info/dependency_links.txt
+writing entry points to maxon_motor_node.egg-info/entry_points.txt
+writing requirements to maxon_motor_node.egg-info/requires.txt
+writing top-level names to maxon_motor_node.egg-info/top_level.txt
+reading manifest file 'maxon_motor_node.egg-info/SOURCES.txt'
+writing manifest file 'maxon_motor_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/usr/usr_ws_2020/install/maxon_motor_node/lib/python3.6/site-packages/maxon-motor-node.egg-link (link to .)
+Installing maxon_drive_controller script to /home/usr/usr_ws_2020/install/maxon_motor_node/lib/maxon_motor_node
+
+Installed /home/usr/usr_ws_2020/build/maxon_motor_node
+running install_data

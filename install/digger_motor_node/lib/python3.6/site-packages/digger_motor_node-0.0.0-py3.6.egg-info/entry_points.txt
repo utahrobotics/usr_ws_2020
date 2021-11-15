@@ -1,0 +1,3 @@
+[console_scripts]
+digger_motor_controller = digger_motor_node.digger_motor_controller:main
+

@@ -1,0 +1,460 @@
+[0.239s] Invoking command in '/home/usr/usr_ws_2020/build/YAML_CPP': /usr/bin/cmake /home/usr/usr_ws_2020/scripts/yaml-cpp-0.6 -DCMAKE_INSTALL_PREFIX=/home/usr/usr_ws_2020/install/YAML_CPP
+[0.296s] CMake Deprecation Warning at CMakeLists.txt:9 (cmake_policy):
+[0.297s]   The OLD behavior for policy CMP0012 will be removed from a future version
+[0.298s]   of CMake.
+[0.298s] 
+[0.299s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.299s]   policies are deprecated and that a policy should be set to OLD only under
+[0.299s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.301s]   behavior and not rely on setting a policy to OLD.
+[0.302s] 
+[0.302s] 
+[0.302s] CMake Deprecation Warning at CMakeLists.txt:13 (cmake_policy):
+[0.303s]   The OLD behavior for policy CMP0015 will be removed from a future version
+[0.303s]   of CMake.
+[0.303s] 
+[0.304s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.304s]   policies are deprecated and that a policy should be set to OLD only under
+[0.305s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.306s]   behavior and not rely on setting a policy to OLD.
+[0.306s] 
+[0.307s] 
+[0.585s] -- The C compiler identification is GNU 7.5.0
+[0.889s] -- The CXX compiler identification is GNU 7.5.0
+[0.920s] -- Check for working C compiler: /usr/bin/cc
+[1.277s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.280s] -- Detecting C compiler ABI info
+[1.625s] -- Detecting C compiler ABI info - done
+[1.683s] -- Detecting C compile features
+[2.763s] -- Detecting C compile features - done
+[2.778s] -- Check for working CXX compiler: /usr/bin/c++
+[3.151s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.156s] -- Detecting CXX compiler ABI info
+[3.547s] -- Detecting CXX compiler ABI info - done
+[3.601s] -- Detecting CXX compile features
+[5.401s] -- Detecting CXX compile features - done
+[5.447s] -- Performing Test FLAG_WEXTRA
+[5.879s] -- Performing Test FLAG_WEXTRA - Success
+[6.300s] -- Found PythonInterp: /usr/bin/python (found version "2.7.17") 
+[6.314s] -- Looking for pthread.h
+[6.690s] -- Looking for pthread.h - found
+[6.694s] -- Looking for pthread_create
+[7.078s] -- Looking for pthread_create - not found
+[7.079s] -- Looking for pthread_create in pthreads
+[7.454s] -- Looking for pthread_create in pthreads - not found
+[7.456s] -- Looking for pthread_create in pthread
+[7.846s] -- Looking for pthread_create in pthread - found
+[7.857s] -- Found Threads: TRUE  
+[7.888s] -- Configuring done
+[8.018s] -- Generating done
+[8.027s] -- Build files have been written to: /home/usr/usr_ws_2020/build/YAML_CPP
+[8.041s] Invoked command in '/home/usr/usr_ws_2020/build/YAML_CPP' returned '0': /usr/bin/cmake /home/usr/usr_ws_2020/scripts/yaml-cpp-0.6 -DCMAKE_INSTALL_PREFIX=/home/usr/usr_ws_2020/install/YAML_CPP
+[8.043s] Invoking command in '/home/usr/usr_ws_2020/build/YAML_CPP': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP -- -j4 -l4
+[8.363s] [35m[1mScanning dependencies of target gmock_main[0m
+[8.383s] [35m[1mScanning dependencies of target gtest[0m
+[8.385s] [35m[1mScanning dependencies of target yaml-cpp[0m
+[8.387s] [35m[1mScanning dependencies of target gmock[0m
+[8.626s] [  1%] [32mBuilding CXX object test/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.654s] [  3%] [32mBuilding CXX object test/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o[0m
+[8.667s] [  5%] [32mBuilding CXX object test/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o[0m
+[8.669s] [  6%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
+[10.363s] [  8%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
+[13.717s] [ 10%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
+[15.068s] [ 11%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
+[17.796s] [ 13%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
+[21.400s] [ 15%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
+[27.395s] [ 16%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
+[35.822s] [ 18%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
+[50.062s] [ 20%] [32mBuilding CXX object test/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o[0m
+[50.562s] [ 21%] [32mBuilding CXX object test/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[50.876s] [ 23%] [32m[1mLinking CXX static library libgtest.a[0m
+[51.251s] [ 23%] Built target gtest
+[51.579s] [ 25%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
+[52.884s] [ 26%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
+[55.086s] [ 28%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
+[57.580s] [ 30%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
+[58.868s] [ 31%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
+[61.365s] [ 33%] [32mBuilding CXX object test/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[62.073s] [ 35%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
+[62.261s] [ 36%] [32m[1mLinking CXX static library libgmock.a[0m
+[62.728s] [ 36%] Built target gmock
+[64.357s] [ 38%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[64.591s] [ 38%] Built target gmock_main
+[65.251s] [ 40%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
+[66.535s] [ 41%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
+[67.111s] [ 43%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
+[69.988s] [ 45%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
+[72.704s] [ 46%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
+[74.506s] In file included from [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/src/regex_yaml.cpp:1:0[m[K:
+[74.507s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/src/regex_yaml.h:[m[K In constructor ‘[01m[KYAML::RegEx::RegEx(const string&, YAML::REGEX_OP)[m[K’:
+[74.507s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/src/regex_yaml.h:31:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.YAML::RegEx::m_z[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[74.508s]  class YAML_CPP_API [01;35m[KRegEx[m[K {
+[74.508s]                     [01;35m[K^~~~~[m[K
+[74.657s] [ 48%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
+[82.385s] [ 50%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
+[85.375s] [ 51%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
+[90.240s] [ 53%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
+[97.484s] [ 55%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
+[98.534s] [ 56%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
+[99.239s] [ 58%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
+[100.298s] [ 60%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
+[101.610s] [ 61%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
+[101.952s] [ 63%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o[0m
+[102.968s] [ 65%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o[0m
+[104.201s] [ 66%] [32m[1mLinking CXX static library libyaml-cpp.a[0m
+[104.448s] [ 66%] Built target yaml-cpp
+[104.501s] [35m[1mScanning dependencies of target gtest_main[0m
+[104.502s] [35m[1mScanning dependencies of target run-tests[0m
+[104.575s] [ 68%] [32mBuilding CXX object test/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[104.649s] [35m[1mScanning dependencies of target parse[0m
+[104.656s] [ 70%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/main.cpp.o[0m
+[104.718s] [ 71%] [32mBuilding CXX object util/CMakeFiles/parse.dir/parse.cpp.o[0m
+[105.734s] [35m[1mScanning dependencies of target sandbox[0m
+[105.835s] [ 73%] [32mBuilding CXX object util/CMakeFiles/sandbox.dir/sandbox.cpp.o[0m
+[106.686s] [ 75%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[106.731s] [ 76%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/ostream_wrapper_test.cpp.o[0m
+[106.908s] [ 76%] Built target gtest_main
+[106.965s] [35m[1mScanning dependencies of target read[0m
+[106.990s] [ 78%] [32m[1mLinking CXX executable parse[0m
+[107.113s] [ 80%] [32mBuilding CXX object util/CMakeFiles/read.dir/read.cpp.o[0m
+[107.393s] [ 80%] Built target parse
+[107.468s] [ 81%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/regex_test.cpp.o[0m
+[108.539s] [ 83%] [32m[1mLinking CXX executable sandbox[0m
+[108.880s] [ 83%] Built target sandbox
+[108.947s] [ 85%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/integration/emitter_test.cpp.o[0m
+[109.769s] [ 86%] [32m[1mLinking CXX executable read[0m
+[110.157s] [ 86%] Built target read
+[110.217s] [ 88%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/integration/encoding_test.cpp.o[0m
+[111.091s] [ 90%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/integration/gen_emitter_test.cpp.o[0m
+[127.597s] [ 91%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/integration/load_node_test.cpp.o[0m
+[128.646s] [ 93%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/integration/handler_test.cpp.o[0m
+[130.726s] [ 95%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/integration/handler_spec_test.cpp.o[0m
+[133.472s] In file included from [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/integration/handler_test.cpp:2:0[m[K:
+[133.473s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:839:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_22[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.473s]  const char *[01;35m[Kex8_22[m[K =
+[133.473s]              [01;35m[K^~~~~~[m[K
+[133.474s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:831:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_21[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.474s]  const char *[01;35m[Kex8_21[m[K =
+[133.474s]              [01;35m[K^~~~~~[m[K
+[133.479s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:823:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_20[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.480s]  const char *[01;35m[Kex8_20[m[K =
+[133.480s]              [01;35m[K^~~~~~[m[K
+[133.481s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:818:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_19[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.481s]  const char *[01;35m[Kex8_19[m[K =
+[133.481s]              [01;35m[K^~~~~~[m[K
+[133.481s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:812:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_18[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.482s]  const char *[01;35m[Kex8_18[m[K =
+[133.482s]              [01;35m[K^~~~~~[m[K
+[133.484s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:805:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_17[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.484s]  const char *[01;35m[Kex8_17[m[K =
+[133.485s]              [01;35m[K^~~~~~[m[K
+[133.485s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:801:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_16[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.485s]  const char *[01;35m[Kex8_16[m[K =
+[133.486s]              [01;35m[K^~~~~~[m[K
+[133.486s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:793:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_15[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.494s]  const char *[01;35m[Kex8_15[m[K =
+[133.495s]              [01;35m[K^~~~~~[m[K
+[133.495s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:788:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_14[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.495s]  const char *[01;35m[Kex8_14[m[K =
+[133.496s]              [01;35m[K^~~~~~[m[K
+[133.496s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:760:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_9[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.496s]  const char *[01;35m[Kex8_9[m[K =
+[133.496s]              [01;35m[K^~~~~[m[K
+[133.497s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:749:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_8[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.497s]  const char *[01;35m[Kex8_8[m[K =
+[133.497s]              [01;35m[K^~~~~[m[K
+[133.498s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:743:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_7[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.498s]  const char *[01;35m[Kex8_7[m[K =
+[133.498s]              [01;35m[K^~~~~[m[K
+[133.499s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:735:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_6[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.499s]  const char *[01;35m[Kex8_6[m[K =
+[133.499s]              [01;35m[K^~~~~[m[K
+[133.499s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:714:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_5[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.500s]  const char *[01;35m[Kex8_5[m[K =
+[133.500s]              [01;35m[K^~~~~[m[K
+[133.500s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:706:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_4[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.501s]  const char *[01;35m[Kex8_4[m[K =
+[133.501s]              [01;35m[K^~~~~[m[K
+[133.501s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:702:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_3c[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.502s]  const char *[01;35m[Kex8_3c[m[K =
+[133.502s]              [01;35m[K^~~~~~[m[K
+[133.519s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:697:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_3b[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.519s]  const char *[01;35m[Kex8_3b[m[K =
+[133.519s]              [01;35m[K^~~~~~[m[K
+[133.520s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:692:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_3a[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.520s]  const char *[01;35m[Kex8_3a[m[K =
+[133.520s]              [01;35m[K^~~~~~[m[K
+[133.521s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:679:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_2[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.521s]  const char *[01;35m[Kex8_2[m[K =
+[133.521s]              [01;35m[K^~~~~[m[K
+[133.522s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:668:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex8_1[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.522s]  const char *[01;35m[Kex8_1[m[K =
+[133.522s]              [01;35m[K^~~~~[m[K
+[133.523s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:661:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_24[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.523s]  const char *[01;35m[Kex7_24[m[K =
+[133.523s]              [01;35m[K^~~~~~[m[K
+[133.523s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:654:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_23[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.524s]  const char *[01;35m[Kex7_23[m[K =
+[133.524s]              [01;35m[K^~~~~~[m[K
+[133.524s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:649:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_22[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.525s]  const char *[01;35m[Kex7_22[m[K =
+[133.525s]              [01;35m[K^~~~~~[m[K
+[133.525s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:644:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_21[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.525s]  const char *[01;35m[Kex7_21[m[K =
+[133.526s]              [01;35m[K^~~~~~[m[K
+[133.526s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:638:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_20[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.527s]  const char *[01;35m[Kex7_20[m[K =
+[133.528s]              [01;35m[K^~~~~~[m[K
+[133.528s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:633:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_19[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.528s]  const char *[01;35m[Kex7_19[m[K =
+[133.529s]              [01;35m[K^~~~~~[m[K
+[133.529s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:626:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_18[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.529s]  const char *[01;35m[Kex7_18[m[K =
+[133.529s]              [01;35m[K^~~~~~[m[K
+[133.530s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:618:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_17[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.549s]  const char *[01;35m[Kex7_17[m[K =
+[133.550s]              [01;35m[K^~~~~~[m[K
+[133.551s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:611:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_16[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.551s]  const char *[01;35m[Kex7_16[m[K =
+[133.551s]              [01;35m[K^~~~~~[m[K
+[133.552s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:607:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_15[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.552s]  const char *[01;35m[Kex7_15[m[K =
+[133.553s]              [01;35m[K^~~~~~[m[K
+[133.553s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:597:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_14[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.553s]  const char *[01;35m[Kex7_14[m[K =
+[133.554s]              [01;35m[K^~~~~~[m[K
+[133.554s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:593:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_13[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.556s]  const char *[01;35m[Kex7_13[m[K =
+[133.556s]              [01;35m[K^~~~~~[m[K
+[133.557s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:587:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_12[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.557s]  const char *[01;35m[Kex7_12[m[K =
+[133.558s]              [01;35m[K^~~~~~[m[K
+[133.558s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:582:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_11[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.559s]  const char *[01;35m[Kex7_11[m[K =
+[133.559s]              [01;35m[K^~~~~~[m[K
+[133.559s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:568:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_10[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.560s]  const char *[01;35m[Kex7_10[m[K =
+[133.560s]              [01;35m[K^~~~~~[m[K
+[133.561s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:562:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_9[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.561s]  const char *[01;35m[Kex7_9[m[K =
+[133.561s]              [01;35m[K^~~~~[m[K
+[133.562s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:557:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_8[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.566s]  const char *[01;35m[Kex7_8[m[K =
+[133.567s]              [01;35m[K^~~~~[m[K
+[133.567s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:555:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_7[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.568s]  const char *[01;35m[Kex7_7[m[K = " 'here''s to \"quotes\"'";
+[133.568s]              [01;35m[K^~~~~[m[K
+[133.568s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:549:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_6[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.569s]  const char *[01;35m[Kex7_6[m[K =
+[133.569s]              [01;35m[K^~~~~[m[K
+[133.570s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:542:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_5[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.570s]  const char *[01;35m[Kex7_5[m[K =
+[133.570s]              [01;35m[K^~~~~[m[K
+[133.571s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:537:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_4[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.571s]  const char *[01;35m[Kex7_4[m[K =
+[133.572s]              [01;35m[K^~~~~[m[K
+[133.572s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:531:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_3[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.572s]  const char *[01;35m[Kex7_3[m[K =
+[133.573s]              [01;35m[K^~~~~[m[K
+[133.573s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:525:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_2[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.574s]  const char *[01;35m[Kex7_2[m[K =
+[133.574s]              [01;35m[K^~~~~[m[K
+[133.574s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:519:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex7_1[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.575s]  const char *[01;35m[Kex7_1[m[K =
+[133.575s]              [01;35m[K^~~~~[m[K
+[133.576s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:515:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_29[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.576s]  const char *[01;35m[Kex6_29[m[K =
+[133.576s]              [01;35m[K^~~~~~[m[K
+[133.577s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:509:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_28[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.595s]  const char *[01;35m[Kex6_28[m[K =
+[133.595s]              [01;35m[K^~~~~~[m[K
+[133.596s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:504:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_27b[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.596s]  const char *[01;35m[Kex6_27b[m[K =
+[133.596s]              [01;35m[K^~~~~~~[m[K
+[133.597s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:499:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_27a[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.597s]  const char *[01;35m[Kex6_27a[m[K =
+[133.598s]              [01;35m[K^~~~~~~[m[K
+[133.598s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:492:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_26[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.598s]  const char *[01;35m[Kex6_26[m[K =
+[133.606s]              [01;35m[K^~~~~~[m[K
+[133.607s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:488:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_25[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.608s]  const char *[01;35m[Kex6_25[m[K =
+[133.608s]              [01;35m[K^~~~~~[m[K
+[133.608s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:484:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_24[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.609s]  const char *[01;35m[Kex6_24[m[K =
+[133.609s]              [01;35m[K^~~~~~[m[K
+[133.610s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:479:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_23[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.610s]  const char *[01;35m[Kex6_23[m[K =
+[133.610s]              [01;35m[K^~~~~~[m[K
+[133.611s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:474:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_22[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.611s]  const char *[01;35m[Kex6_22[m[K =
+[133.612s]              [01;35m[K^~~~~~[m[K
+[133.612s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:465:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_21[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.612s]  const char *[01;35m[Kex6_21[m[K =
+[133.613s]              [01;35m[K^~~~~~[m[K
+[133.613s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:460:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_20[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.613s]  const char *[01;35m[Kex6_20[m[K =
+[133.614s]              [01;35m[K^~~~~~[m[K
+[133.614s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:455:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_19[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.615s]  const char *[01;35m[Kex6_19[m[K =
+[133.615s]              [01;35m[K^~~~~~[m[K
+[133.615s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:446:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_18[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.616s]  const char *[01;35m[Kex6_18[m[K =
+[133.616s]              [01;35m[K^~~~~~[m[K
+[133.617s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:441:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_17[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.617s]  const char *[01;35m[Kex6_17[m[K =
+[133.617s]              [01;35m[K^~~~~~[m[K
+[133.618s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:436:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_16[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.630s]  const char *[01;35m[Kex6_16[m[K =
+[133.632s]              [01;35m[K^~~~~~[m[K
+[133.632s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:431:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_15[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.632s]  const char *[01;35m[Kex6_15[m[K =
+[133.633s]              [01;35m[K^~~~~~[m[K
+[133.633s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:425:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_14[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.634s]  const char *[01;35m[Kex6_14[m[K =
+[133.634s]              [01;35m[K^~~~~~[m[K
+[133.635s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:420:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_13[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.635s]  const char *[01;35m[Kex6_13[m[K =
+[133.635s]              [01;35m[K^~~~~~[m[K
+[133.636s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:412:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_12[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.636s]  const char *[01;35m[Kex6_12[m[K =
+[133.636s]              [01;35m[K^~~~~~[m[K
+[133.637s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:406:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_11[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.637s]  const char *[01;35m[Kex6_11[m[K =
+[133.638s]              [01;35m[K^~~~~~[m[K
+[133.638s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:401:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_10[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.639s]  const char *[01;35m[Kex6_10[m[K =
+[133.639s]              [01;35m[K^~~~~~[m[K
+[133.639s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:397:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_9[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.640s]  const char *[01;35m[Kex6_9[m[K =
+[133.640s]              [01;35m[K^~~~~[m[K
+[133.641s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:388:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_8[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.641s]  const char *[01;35m[Kex6_8[m[K =
+[133.641s]              [01;35m[K^~~~~[m[K
+[133.642s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:380:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_7[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.658s]  const char *[01;35m[Kex6_7[m[K =
+[133.659s]              [01;35m[K^~~~~[m[K
+[133.660s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:371:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_6[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.660s]  const char *[01;35m[Kex6_6[m[K =
+[133.661s]              [01;35m[K^~~~~[m[K
+[133.661s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:362:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_5[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.661s]  const char *[01;35m[Kex6_5[m[K =
+[133.662s]              [01;35m[K^~~~~[m[K
+[133.662s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:353:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_4[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.663s]  const char *[01;35m[Kex6_4[m[K =
+[133.663s]              [01;35m[K^~~~~[m[K
+[133.663s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:348:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_3[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.664s]  const char *[01;35m[Kex6_3[m[K =
+[133.664s]              [01;35m[K^~~~~[m[K
+[133.665s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:342:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_2[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.665s]  const char *[01;35m[Kex6_2[m[K =
+[133.667s]              [01;35m[K^~~~~[m[K
+[133.668s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:328:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex6_1[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.668s]  const char *[01;35m[Kex6_1[m[K =
+[133.669s]              [01;35m[K^~~~~[m[K
+[133.669s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:323:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_14[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.670s]  const char *[01;35m[Kex5_14[m[K =
+[133.670s]              [01;35m[K^~~~~~[m[K
+[133.670s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:316:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_13[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.671s]  const char *[01;35m[Kex5_13[m[K =
+[133.671s]              [01;35m[K^~~~~~[m[K
+[133.672s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:308:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_12[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.672s]  const char *[01;35m[Kex5_12[m[K =
+[133.672s]              [01;35m[K^~~~~~[m[K
+[133.673s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:303:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_11[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.673s]  const char *[01;35m[Kex5_11[m[K =
+[133.673s]              [01;35m[K^~~~~~[m[K
+[133.674s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:296:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_8[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.683s]  const char *[01;35m[Kex5_8[m[K =
+[133.684s]              [01;35m[K^~~~~[m[K
+[133.685s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:288:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_7[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.685s]  const char *[01;35m[Kex5_7[m[K =
+[133.685s]              [01;35m[K^~~~~[m[K
+[133.686s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:284:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_6[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.686s]  const char *[01;35m[Kex5_6[m[K =
+[133.687s]              [01;35m[K^~~~~[m[K
+[133.687s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:282:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_5[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.688s]  const char *[01;35m[Kex5_5[m[K = "# Comment only.";
+[133.688s]              [01;35m[K^~~~~[m[K
+[133.688s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:278:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_4[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.689s]  const char *[01;35m[Kex5_4[m[K =
+[133.689s]              [01;35m[K^~~~~[m[K
+[133.689s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:269:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex5_3[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.690s]  const char *[01;35m[Kex5_3[m[K =
+[133.690s]              [01;35m[K^~~~~[m[K
+[133.691s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:239:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_28[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.691s]  const char *[01;35m[Kex2_28[m[K =
+[133.691s]              [01;35m[K^~~~~~[m[K
+[133.692s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:208:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_27[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.692s]  const char *[01;35m[Kex2_27[m[K =
+[133.693s]              [01;35m[K^~~~~~[m[K
+[133.693s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:199:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_26[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.693s]  const char *[01;35m[Kex2_26[m[K =
+[133.694s]              [01;35m[K^~~~~~[m[K
+[133.707s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:190:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_25[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.707s]  const char *[01;35m[Kex2_25[m[K =
+[133.708s]              [01;35m[K^~~~~~[m[K
+[133.708s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:174:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_24[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.708s]  const char *[01;35m[Kex2_24[m[K =
+[133.709s]              [01;35m[K^~~~~~[m[K
+[133.709s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:159:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_23[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.710s]  const char *[01;35m[Kex2_23[m[K =
+[133.710s]              [01;35m[K^~~~~~[m[K
+[133.711s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:149:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_18[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.711s]  const char *[01;35m[Kex2_18[m[K =
+[133.711s]              [01;35m[K^~~~~~[m[K
+[133.712s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:140:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_17[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.712s]  const char *[01;35m[Kex2_17[m[K =
+[133.712s]              [01;35m[K^~~~~~[m[K
+[133.713s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:131:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_16[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.713s]  const char *[01;35m[Kex2_16[m[K =
+[133.713s]              [01;35m[K^~~~~~[m[K
+[133.714s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:121:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_15[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.714s]  const char *[01;35m[Kex2_15[m[K =
+[133.715s]              [01;35m[K^~~~~~[m[K
+[133.715s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:115:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_14[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.715s]  const char *[01;35m[Kex2_14[m[K =
+[133.716s]              [01;35m[K^~~~~~[m[K
+[133.716s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:109:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_13[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.717s]  const char *[01;35m[Kex2_13[m[K =
+[133.717s]              [01;35m[K^~~~~~[m[K
+[133.731s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:99:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_12[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.732s]  const char *[01;35m[Kex2_12[m[K =
+[133.732s]              [01;35m[K^~~~~~[m[K
+[133.733s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:88:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_11[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.733s]  const char *[01;35m[Kex2_11[m[K =
+[133.734s]              [01;35m[K^~~~~~[m[K
+[133.734s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:78:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_10[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.734s]  const char *[01;35m[Kex2_10[m[K =
+[133.735s]              [01;35m[K^~~~~~[m[K
+[133.735s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:68:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_9[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.736s]  const char *[01;35m[Kex2_9[m[K =
+[133.736s]              [01;35m[K^~~~~[m[K
+[133.736s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:56:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_8[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.737s]  const char *[01;35m[Kex2_8[m[K =
+[133.737s]              [01;35m[K^~~~~[m[K
+[133.737s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:44:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_7[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.738s]  const char *[01;35m[Kex2_7[m[K =
+[133.738s]              [01;35m[K^~~~~[m[K
+[133.739s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:37:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_6[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.739s]  const char *[01;35m[Kex2_6[m[K =
+[133.740s]              [01;35m[K^~~~~[m[K
+[133.740s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:32:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_5[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.741s]  const char *[01;35m[Kex2_5[m[K =
+[133.742s]              [01;35m[K^~~~~[m[K
+[133.755s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:22:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_4[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.755s]  const char *[01;35m[Kex2_4[m[K =
+[133.756s]              [01;35m[K^~~~~[m[K
+[133.756s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:12:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_3[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.757s]  const char *[01;35m[Kex2_3[m[K =
+[133.757s]              [01;35m[K^~~~~[m[K
+[133.757s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:7:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_2[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.758s]  const char *[01;35m[Kex2_2[m[K =
+[133.758s]              [01;35m[K^~~~~[m[K
+[133.759s] [01m[K/home/usr/usr_ws_2020/scripts/yaml-cpp-0.6/test/specexamples.h:2:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::ex2_1[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[133.759s]  const char *[01;35m[Kex2_1[m[K =
+[133.759s]              [01;35m[K^~~~~[m[K
+[171.772s] [ 98%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/integration/node_spec_test.cpp.o[0m
+[171.773s] [ 98%] [32mBuilding CXX object test/CMakeFiles/run-tests.dir/node/node_test.cpp.o[0m
+[238.526s] [100%] [32m[1mLinking CXX executable run-tests[0m
+[239.093s] [100%] Built target run-tests

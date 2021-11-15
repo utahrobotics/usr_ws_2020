@@ -1,0 +1,1 @@
+/home/usr/usr_ws_2020/src/ros2_intel_realsense/realsense_msgs/msg/IMUInfo.msg

@@ -1,0 +1,10 @@
+[0.462s] Invoking command in '/home/usr/usr_ws_2020/build/YAML_CPP': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP -- -j4 -l4
+[2.715s] [ 51%] Built target yaml-cpp
+[2.716s] [ 56%] Built target gmock
+[2.716s] [ 63%] Built target gmock_main
+[2.716s] [ 66%] Built target gtest
+[2.717s] [ 70%] Built target sandbox
+[2.717s] [ 73%] Built target parse
+[2.717s] [ 76%] Built target read
+[2.718s] [ 96%] Built target run-tests
+[2.718s] [100%] Built target gtest_main

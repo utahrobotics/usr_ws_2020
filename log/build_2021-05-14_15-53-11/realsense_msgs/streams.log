@@ -1,0 +1,105 @@
+[0.322s] Invoking command in '/home/usr/usr_ws_2020/build/realsense_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck /usr/bin/cmake --build /home/usr/usr_ws_2020/build/realsense_msgs -- -j4 -l4
+[0.767s] [  3%] Built target realsense_msgs__cpp
+[0.867s] [ 12%] Built target realsense_msgs__rosidl_generator_c
+[1.151s] [ 22%] Built target realsense_msgs__rosidl_typesupport_introspection_cpp
+[1.170s] [ 32%] Built target realsense_msgs__rosidl_typesupport_cpp
+[1.227s] [ 41%] Built target realsense_msgs__rosidl_typesupport_fastrtps_cpp
+[1.231s] [ 51%] Built target realsense_msgs__rosidl_typesupport_c
+[1.404s] [ 61%] Built target realsense_msgs__rosidl_typesupport_introspection_c
+[1.442s] [ 70%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c
+[1.558s] [ 70%] Built target realsense_msgs
+[1.670s] [ 74%] Built target realsense_msgs__py
+[1.792s] [ 80%] Built target realsense_msgs__python
+[2.011s] [ 87%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.066s] [ 93%] Built target realsense_msgs__rosidl_typesupport_introspection_c__pyext
+[2.086s] [100%] Built target realsense_msgs__rosidl_typesupport_c__pyext
+[2.296s] Invoked command in '/home/usr/usr_ws_2020/build/realsense_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck /usr/bin/cmake --build /home/usr/usr_ws_2020/build/realsense_msgs -- -j4 -l4
+[2.751s] Invoking command in '/home/usr/usr_ws_2020/build/realsense_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck /usr/bin/cmake --build /home/usr/usr_ws_2020/build/realsense_msgs --target install -- -j4 -l4
+[3.063s] [  3%] Built target realsense_msgs__cpp
+[3.085s] [ 12%] Built target realsense_msgs__rosidl_generator_c
+[3.241s] [ 22%] Built target realsense_msgs__rosidl_typesupport_fastrtps_cpp
+[3.312s] [ 32%] Built target realsense_msgs__rosidl_typesupport_c
+[3.322s] [ 41%] Built target realsense_msgs__rosidl_typesupport_introspection_cpp
+[3.455s] [ 51%] Built target realsense_msgs__rosidl_typesupport_cpp
+[3.531s] [ 61%] Built target realsense_msgs__rosidl_typesupport_introspection_c
+[3.712s] [ 70%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c
+[4.018s] [ 70%] Built target realsense_msgs
+[4.173s] [ 74%] Built target realsense_msgs__py
+[4.331s] [ 80%] Built target realsense_msgs__python
+[4.568s] [ 87%] Built target realsense_msgs__rosidl_typesupport_introspection_c__pyext
+[4.661s] [ 93%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.690s] [100%] Built target realsense_msgs__rosidl_typesupport_c__pyext
+[4.866s] [36mInstall the project...[0m
+[4.948s] -- Install configuration: ""
+[4.951s] -- Execute custom install script
+[4.953s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense_msgs
+[4.956s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__functions.h
+[4.957s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__struct.h
+[4.959s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__type_support.h
+[4.962s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/imu_info.h
+[4.963s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.965s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/environment/library_path.sh
+[4.966s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/environment/library_path.dsv
+[4.969s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[4.970s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.973s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[4.974s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.977s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_fastrtps_c.so
+[4.979s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.981s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.983s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.987s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__builder.hpp
+[4.989s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__struct.hpp
+[4.990s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__traits.hpp
+[4.991s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/imu_info.hpp
+[4.994s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[4.996s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/environment/pythonpath.sh
+[4.996s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/environment/pythonpath.dsv
+[4.998s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/__init__.py
+[4.999s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/msg/__init__.py
+[5.000s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/msg/_imu_info.py
+[5.001s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[5.002s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[5.004s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[5.005s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/lib/librealsense_msgs__python.so
+[5.006s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/msg/IMUInfo.idl
+[5.007s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/msg/IMUInfo.msg
+[5.009s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/ament_index/resource_index/package_run_dependencies/realsense_msgs
+[5.010s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/ament_index/resource_index/parent_prefix_path/realsense_msgs
+[5.011s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/environment/ament_prefix_path.sh
+[5.013s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/environment/ament_prefix_path.dsv
+[5.014s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/environment/path.sh
+[5.014s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/environment/path.dsv
+[5.015s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/local_setup.bash
+[5.016s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/local_setup.sh
+[5.017s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/local_setup.zsh
+[5.018s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/local_setup.dsv
+[5.018s] -- Symlinking: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/package.dsv
+[5.066s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/ament_index/resource_index/packages/realsense_msgs
+[5.067s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/rosidl_cmake-extras.cmake
+[5.069s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.071s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.071s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.072s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.073s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.075s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.076s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgsConfig.cmake
+[5.077s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgsConfig-version.cmake
+[5.080s] -- Up-to-date symlink: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/package.xml
+[5.080s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/lib/librealsense_msgs__rosidl_generator_c.so
+[5.083s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_introspection_c.so
+[5.083s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_c.so
+[5.084s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_introspection_cpp.so
+[5.084s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_cpp.so
+[5.478s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_generator_cExport.cmake
+[5.479s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.481s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.482s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.484s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cExport.cmake
+[5.486s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.491s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_generator_cppExport.cmake
+[5.491s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.491s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.492s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cppExport.cmake
+[5.492s] -- Up-to-date: /home/usr/usr_ws_2020/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.195s] Invoked command in '/home/usr/usr_ws_2020/build/realsense_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck /usr/bin/cmake --build /home/usr/usr_ws_2020/build/realsense_msgs --target install -- -j4 -l4

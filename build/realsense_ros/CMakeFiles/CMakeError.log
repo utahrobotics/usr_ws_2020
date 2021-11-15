@@ -1,0 +1,56 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/usr/usr_ws_2020/build/realsense_ros/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eeadf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eeadf.dir/build.make CMakeFiles/cmTC_eeadf.dir/build
+make[1]: Entering directory '/home/usr/usr_ws_2020/build/realsense_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eeadf.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eeadf.dir/CheckSymbolExists.c.o   -c /home/usr/usr_ws_2020/build/realsense_ros/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eeadf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeadf.dir/link.txt --verbose=1
+/usr/bin/cc     -z noexecstack -z relro -z now -pie  CMakeFiles/cmTC_eeadf.dir/CheckSymbolExists.c.o  -o cmTC_eeadf 
+CMakeFiles/cmTC_eeadf.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eeadf.dir/build.make:97: recipe for target 'cmTC_eeadf' failed
+make[1]: *** [cmTC_eeadf] Error 1
+make[1]: Leaving directory '/home/usr/usr_ws_2020/build/realsense_ros/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eeadf/fast' failed
+make: *** [cmTC_eeadf/fast] Error 2
+
+File /home/usr/usr_ws_2020/build/realsense_ros/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/usr/usr_ws_2020/build/realsense_ros/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9dd0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9dd0.dir/build.make CMakeFiles/cmTC_a9dd0.dir/build
+make[1]: Entering directory '/home/usr/usr_ws_2020/build/realsense_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9dd0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a9dd0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a9dd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9dd0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create   -z noexecstack -z relro -z now -pie  CMakeFiles/cmTC_a9dd0.dir/CheckFunctionExists.c.o  -o cmTC_a9dd0 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a9dd0.dir/build.make:97: recipe for target 'cmTC_a9dd0' failed
+make[1]: *** [cmTC_a9dd0] Error 1
+make[1]: Leaving directory '/home/usr/usr_ws_2020/build/realsense_ros/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a9dd0/fast' failed
+make: *** [cmTC_a9dd0/fast] Error 2
+
+

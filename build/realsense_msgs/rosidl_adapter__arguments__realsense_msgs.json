@@ -1,0 +1,6 @@
+{
+  "package_name": "realsense_msgs",
+  "non_idl_tuples": [
+    "/home/usr/usr_ws_2020/src/ros2_intel_realsense/realsense_msgs:msg/IMUInfo.msg"
+  ]
+}

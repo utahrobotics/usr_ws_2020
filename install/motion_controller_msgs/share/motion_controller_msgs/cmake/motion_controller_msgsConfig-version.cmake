@@ -1,0 +1,1 @@
+/home/usr/usr_ws_2020/build/motion_controller_msgs/ament_cmake_core/motion_controller_msgsConfig-version.cmake

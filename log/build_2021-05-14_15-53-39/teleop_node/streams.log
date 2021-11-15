@@ -1,0 +1,21 @@
+[1.886s] Invoking command in '/home/usr/usr_ws_2020/build/teleop_node': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/teleop_node --editable --build-directory /home/usr/usr_ws_2020/build/teleop_node/build --no-deps install_data --install-dir /home/usr/usr_ws_2020/install/teleop_node
+[3.286s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.287s]   % (opt, underscore_opt))
+[3.287s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.288s]   % (opt, underscore_opt))
+[3.534s] running develop
+[4.188s] running egg_info
+[4.189s] writing teleop_node.egg-info/PKG-INFO
+[4.189s] writing dependency_links to teleop_node.egg-info/dependency_links.txt
+[4.190s] writing entry points to teleop_node.egg-info/entry_points.txt
+[4.190s] writing requirements to teleop_node.egg-info/requires.txt
+[4.191s] writing top-level names to teleop_node.egg-info/top_level.txt
+[4.329s] reading manifest file 'teleop_node.egg-info/SOURCES.txt'
+[4.333s] writing manifest file 'teleop_node.egg-info/SOURCES.txt'
+[4.348s] running build_ext
+[4.349s] Creating /home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages/teleop-node.egg-link (link to .)
+[4.354s] Installing teleop script to /home/usr/usr_ws_2020/install/teleop_node/lib/teleop_node
+[4.356s] 
+[4.357s] Installed /home/usr/usr_ws_2020/build/teleop_node
+[4.358s] running install_data
+[4.469s] Invoked command in '/home/usr/usr_ws_2020/build/teleop_node' returned '0': PYTHONPATH=/home/usr/usr_ws_2020/install/teleop_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/teleop_node --editable --build-directory /home/usr/usr_ws_2020/build/teleop_node/build --no-deps install_data --install-dir /home/usr/usr_ws_2020/install/teleop_node

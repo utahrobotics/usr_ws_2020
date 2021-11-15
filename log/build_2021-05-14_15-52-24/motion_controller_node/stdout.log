@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target M5[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/M5.dir/src/M5.cpp.o[0m
+[100%] [32m[1mLinking CXX executable M5[0m
+[100%] Built target M5

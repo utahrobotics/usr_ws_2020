@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found motion_controller_msgs: 0.0.0 (/home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/usr/usr_ws_2020/src/motion_controller/motion_controller_node/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/usr/usr_ws_2020/build/motion_controller_node
+[100%] Built target M5
+[100%] Built target M5
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/lib/motion_controller_node/M5
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/ament_index/resource_index/package_run_dependencies/motion_controller_node
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/ament_index/resource_index/parent_prefix_path/motion_controller_node
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/environment/path.sh
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/environment/path.dsv
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/local_setup.bash
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/local_setup.sh
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/local_setup.zsh
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/local_setup.dsv
+-- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/package.dsv
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/ament_index/resource_index/packages/motion_controller_node
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/cmake/motion_controller_nodeConfig.cmake
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/cmake/motion_controller_nodeConfig-version.cmake
+-- Up-to-date symlink: /home/usr/usr_ws_2020/install/motion_controller_node/share/motion_controller_node/package.xml

@@ -5,7 +5,7 @@ package_name = 'digger_motor_node'
 setup(
     name=package_name,
     version='0.0.0',
-    packages=[package_name],
+    packages=['digger_motor_node'],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),

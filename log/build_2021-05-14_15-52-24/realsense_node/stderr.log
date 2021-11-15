@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:74 (find_package):
+  By not providing "Findrealsense_ros.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "realsense_ros", but CMake did not find one.
+
+  Could not find a package configuration file provided by "realsense_ros"
+  with any of the following names:
+
+    realsense_rosConfig.cmake
+    realsense_ros-config.cmake
+
+  Add the installation prefix of "realsense_ros" to CMAKE_PREFIX_PATH or set
+  "realsense_ros_DIR" to a directory containing one of the above files.  If
+  "realsense_ros" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

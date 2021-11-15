@@ -1,0 +1,21 @@
+[2.245s] Invoking command in '/home/usr/usr_ws_2020/build/digger_motor_node': PYTHONPATH=/home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/digger_motor_node --editable --build-directory /home/usr/usr_ws_2020/build/digger_motor_node/build --no-deps install_data --install-dir /home/usr/usr_ws_2020/install/digger_motor_node
+[3.838s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.839s]   % (opt, underscore_opt))
+[3.839s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.840s]   % (opt, underscore_opt))
+[4.116s] running develop
+[4.839s] running egg_info
+[4.841s] writing digger_motor_node.egg-info/PKG-INFO
+[4.842s] writing dependency_links to digger_motor_node.egg-info/dependency_links.txt
+[4.842s] writing entry points to digger_motor_node.egg-info/entry_points.txt
+[4.843s] writing requirements to digger_motor_node.egg-info/requires.txt
+[4.843s] writing top-level names to digger_motor_node.egg-info/top_level.txt
+[4.974s] reading manifest file 'digger_motor_node.egg-info/SOURCES.txt'
+[4.978s] writing manifest file 'digger_motor_node.egg-info/SOURCES.txt'
+[4.992s] running build_ext
+[4.993s] Creating /home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages/digger-motor-node.egg-link (link to .)
+[4.996s] Installing digger_motor_controller script to /home/usr/usr_ws_2020/install/digger_motor_node/lib/digger_motor_node
+[4.997s] 
+[4.998s] Installed /home/usr/usr_ws_2020/build/digger_motor_node
+[4.999s] running install_data
+[6.156s] Invoked command in '/home/usr/usr_ws_2020/build/digger_motor_node' returned '0': PYTHONPATH=/home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/digger_motor_node --editable --build-directory /home/usr/usr_ws_2020/build/digger_motor_node/build --no-deps install_data --install-dir /home/usr/usr_ws_2020/install/digger_motor_node

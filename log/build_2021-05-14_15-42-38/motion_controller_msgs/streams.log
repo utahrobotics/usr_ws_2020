@@ -1,0 +1,219 @@
+[0.291s] Invoking command in '/home/usr/usr_ws_2020/build/motion_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck /usr/bin/cmake /home/usr/usr_ws_2020/src/motion_controller/motion_controller_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usr/usr_ws_2020/install/motion_controller_msgs
+[0.589s] -- The C compiler identification is GNU 7.5.0
+[0.843s] -- The CXX compiler identification is GNU 7.5.0
+[0.869s] -- Check for working C compiler: /usr/bin/cc
+[1.211s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.212s] -- Detecting C compiler ABI info
+[1.607s] -- Detecting C compiler ABI info - done
+[1.644s] -- Detecting C compile features
+[2.667s] -- Detecting C compile features - done
+[2.678s] -- Check for working CXX compiler: /usr/bin/c++
+[3.034s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.036s] -- Detecting CXX compiler ABI info
+[3.426s] -- Detecting CXX compiler ABI info - done
+[3.449s] -- Detecting CXX compile features
+[5.047s] -- Detecting CXX compile features - done
+[5.094s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/install/ament_cmake/share/ament_cmake/cmake)
+[5.454s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[5.455s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.712s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.207s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[7.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[7.506s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[8.141s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[8.271s] -- Found FastRTPS: /opt/ros/foxy/install/fastrtps/include  
+[8.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[9.736s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[12.142s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[13.871s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[14.318s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[14.993s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[15.062s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+[15.728s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[15.730s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.730s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[15.730s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[16.136s] -- Found PythonExtra: .so  
+[18.193s] -- Configuring done
+[18.547s] -- Generating done
+[18.571s] -- Build files have been written to: /home/usr/usr_ws_2020/build/motion_controller_msgs
+[18.594s] Invoked command in '/home/usr/usr_ws_2020/build/motion_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck /usr/bin/cmake /home/usr/usr_ws_2020/src/motion_controller/motion_controller_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usr/usr_ws_2020/install/motion_controller_msgs
+[18.619s] Invoking command in '/home/usr/usr_ws_2020/build/motion_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck /usr/bin/cmake --build /home/usr/usr_ws_2020/build/motion_controller_msgs -- -j4 -l4
+[19.181s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[19.214s] [35m[1mScanning dependencies of target motion_controller_msgs__cpp[0m
+[19.420s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[23.000s] [  5%] Built target motion_controller_msgs__cpp
+[23.245s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.253s] [35m[1mScanning dependencies of target motion_controller_msgs__rosidl_generator_c[0m
+[23.410s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[23.411s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[23.434s] [ 15%] [32mBuilding C object CMakeFiles/motion_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/motion_controller_msgs/msg/detail/mobility__functions.c.o[0m
+[24.031s] [ 17%] [32mBuilding C object CMakeFiles/motion_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/motion_controller_msgs/msg/detail/roboclaw_command__functions.c.o[0m
+[24.528s] [ 20%] [32m[1mLinking C shared library libmotion_controller_msgs__rosidl_generator_c.so[0m
+[25.092s] [ 20%] Built target motion_controller_msgs__rosidl_generator_c
+[25.294s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[27.272s] [35m[1mScanning dependencies of target motion_controller_msgs__rosidl_typesupport_cpp[0m
+[27.512s] [ 25%] [32mBuilding CXX object CMakeFiles/motion_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_controller_msgs/msg/mobility__type_support.cpp.o[0m
+[27.799s] [35m[1mScanning dependencies of target motion_controller_msgs__rosidl_typesupport_introspection_cpp[0m
+[28.096s] [ 28%] [32mBuilding CXX object CMakeFiles/motion_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_controller_msgs/msg/detail/mobility__type_support.cpp.o[0m
+[28.134s] [35m[1mScanning dependencies of target motion_controller_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[28.453s] [ 30%] [32mBuilding CXX object CMakeFiles/motion_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_controller_msgs/msg/detail/dds_fastrtps/mobility__type_support.cpp.o[0m
+[30.285s] [35m[1mScanning dependencies of target motion_controller_msgs__rosidl_typesupport_introspection_c[0m
+[30.565s] [ 33%] [32mBuilding C object CMakeFiles/motion_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_controller_msgs/msg/detail/mobility__type_support.c.o[0m
+[31.008s] [ 35%] [32mBuilding CXX object CMakeFiles/motion_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_controller_msgs/msg/roboclaw_command__type_support.cpp.o[0m
+[31.136s] [ 38%] [32mBuilding C object CMakeFiles/motion_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_controller_msgs/msg/detail/roboclaw_command__type_support.c.o[0m
+[31.463s] [ 41%] [32mBuilding CXX object CMakeFiles/motion_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_controller_msgs/msg/detail/roboclaw_command__type_support.cpp.o[0m
+[31.720s] [ 43%] [32m[1mLinking C shared library libmotion_controller_msgs__rosidl_typesupport_introspection_c.so[0m
+[32.332s] [ 43%] Built target motion_controller_msgs__rosidl_typesupport_introspection_c
+[32.586s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[33.293s] [ 48%] [32mBuilding CXX object CMakeFiles/motion_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_controller_msgs/msg/detail/dds_fastrtps/roboclaw_command__type_support.cpp.o[0m
+[33.976s] [ 51%] [32m[1mLinking CXX shared library libmotion_controller_msgs__rosidl_typesupport_cpp.so[0m
+[34.584s] [ 51%] Built target motion_controller_msgs__rosidl_typesupport_cpp
+[34.898s] [ 53%] [32m[1mLinking CXX shared library libmotion_controller_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[35.574s] [ 53%] Built target motion_controller_msgs__rosidl_typesupport_introspection_cpp
+[36.981s] [35m[1mScanning dependencies of target motion_controller_msgs__rosidl_typesupport_c[0m
+[37.263s] [ 56%] [32mBuilding CXX object CMakeFiles/motion_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_controller_msgs/msg/roboclaw_command__type_support.cpp.o[0m
+[37.280s] [ 58%] [32mBuilding CXX object CMakeFiles/motion_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_controller_msgs/msg/mobility__type_support.cpp.o[0m
+[37.742s] [ 61%] [32m[1mLinking CXX shared library libmotion_controller_msgs__rosidl_typesupport_c.so[0m
+[37.746s] [ 64%] [32m[1mLinking CXX shared library libmotion_controller_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[38.273s] [ 64%] Built target motion_controller_msgs__rosidl_typesupport_c
+[38.501s] [ 64%] Built target motion_controller_msgs__rosidl_typesupport_fastrtps_cpp
+[38.660s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[41.181s] [35m[1mScanning dependencies of target motion_controller_msgs__rosidl_typesupport_fastrtps_c[0m
+[41.410s] [ 69%] [32mBuilding CXX object CMakeFiles/motion_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_controller_msgs/msg/detail/mobility__type_support_c.cpp.o[0m
+[43.424s] [ 71%] [32mBuilding CXX object CMakeFiles/motion_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_controller_msgs/msg/detail/roboclaw_command__type_support_c.cpp.o[0m
+[45.728s] [ 74%] [32m[1mLinking CXX shared library libmotion_controller_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[46.428s] [ 74%] Built target motion_controller_msgs__rosidl_typesupport_fastrtps_c
+[46.616s] [35m[1mScanning dependencies of target motion_controller_msgs[0m
+[46.788s] [ 74%] Built target motion_controller_msgs
+[46.944s] [35m[1mScanning dependencies of target motion_controller_msgs__py[0m
+[47.100s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[51.939s] [ 76%] Built target motion_controller_msgs__py
+[52.121s] [35m[1mScanning dependencies of target motion_controller_msgs__python[0m
+[52.373s] [ 79%] [32mBuilding C object CMakeFiles/motion_controller_msgs__python.dir/rosidl_generator_py/motion_controller_msgs/msg/_mobility_s.c.o[0m
+[53.092s] [ 82%] [32mBuilding C object CMakeFiles/motion_controller_msgs__python.dir/rosidl_generator_py/motion_controller_msgs/msg/_roboclaw_command_s.c.o[0m
+[53.896s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/motion_controller_msgs/libmotion_controller_msgs__python.so[0m
+[54.297s] [ 84%] Built target motion_controller_msgs__python
+[54.469s] [35m[1mScanning dependencies of target motion_controller_msgs__rosidl_typesupport_c__pyext[0m
+[54.659s] [ 87%] [32mBuilding C object CMakeFiles/motion_controller_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motion_controller_msgs/_motion_controller_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[55.344s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/motion_controller_msgs/motion_controller_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[55.761s] [ 89%] Built target motion_controller_msgs__rosidl_typesupport_c__pyext
+[55.932s] [35m[1mScanning dependencies of target motion_controller_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[56.146s] [ 92%] [32mBuilding C object CMakeFiles/motion_controller_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motion_controller_msgs/_motion_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[56.800s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/motion_controller_msgs/motion_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so[0m
+[57.140s] [ 94%] Built target motion_controller_msgs__rosidl_typesupport_introspection_c__pyext
+[57.264s] [35m[1mScanning dependencies of target motion_controller_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[57.476s] [ 97%] [32mBuilding C object CMakeFiles/motion_controller_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motion_controller_msgs/_motion_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[58.022s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/motion_controller_msgs/motion_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[58.605s] [100%] Built target motion_controller_msgs__rosidl_typesupport_fastrtps_c__pyext
+[58.723s] Invoked command in '/home/usr/usr_ws_2020/build/motion_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck /usr/bin/cmake --build /home/usr/usr_ws_2020/build/motion_controller_msgs -- -j4 -l4
+[60.705s] Invoking command in '/home/usr/usr_ws_2020/build/motion_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck /usr/bin/cmake --build /home/usr/usr_ws_2020/build/motion_controller_msgs --target install -- -j4 -l4
+[61.376s] [ 10%] Built target motion_controller_msgs__rosidl_generator_c
+[61.582s] [ 12%] Built target motion_controller_msgs__cpp
+[61.817s] [ 23%] Built target motion_controller_msgs__rosidl_typesupport_c
+[62.079s] [ 33%] Built target motion_controller_msgs__rosidl_typesupport_fastrtps_cpp
+[62.337s] [ 43%] Built target motion_controller_msgs__rosidl_typesupport_introspection_cpp
+[62.606s] [ 53%] Built target motion_controller_msgs__rosidl_typesupport_fastrtps_c
+[62.785s] [ 64%] Built target motion_controller_msgs__rosidl_typesupport_cpp
+[62.922s] [ 74%] Built target motion_controller_msgs__rosidl_typesupport_introspection_c
+[63.062s] [ 74%] Built target motion_controller_msgs
+[63.192s] [ 76%] Built target motion_controller_msgs__py
+[63.357s] [ 84%] Built target motion_controller_msgs__python
+[63.501s] [ 89%] Built target motion_controller_msgs__rosidl_typesupport_c__pyext
+[63.658s] [ 94%] Built target motion_controller_msgs__rosidl_typesupport_introspection_c__pyext
+[63.814s] [100%] Built target motion_controller_msgs__rosidl_typesupport_fastrtps_c__pyext
+[63.961s] [36mInstall the project...[0m
+[64.011s] -- Install configuration: ""
+[64.013s] -- Execute custom install script
+[64.016s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/ament_index/resource_index/rosidl_interfaces/motion_controller_msgs
+[64.075s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/mobility__functions.h
+[64.124s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/mobility__struct.h
+[64.185s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/mobility__type_support.h
+[64.235s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/roboclaw_command__functions.h
+[64.299s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/roboclaw_command__struct.h
+[64.352s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/roboclaw_command__type_support.h
+[64.402s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/mobility.h
+[64.455s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/roboclaw_command.h
+[64.507s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/rosidl_generator_c__visibility_control.h
+[64.607s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/environment/library_path.sh
+[64.656s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/environment/library_path.dsv
+[64.705s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/mobility__rosidl_typesupport_introspection_c.h
+[64.751s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/roboclaw_command__rosidl_typesupport_introspection_c.h
+[64.794s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[64.839s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/mobility__rosidl_typesupport_fastrtps_c.h
+[64.885s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/roboclaw_command__rosidl_typesupport_fastrtps_c.h
+[64.930s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[64.975s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_typesupport_fastrtps_c.so
+[65.022s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/mobility__rosidl_typesupport_fastrtps_cpp.hpp
+[65.066s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/roboclaw_command__rosidl_typesupport_fastrtps_cpp.hpp
+[65.109s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[65.154s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+[65.201s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/mobility__builder.hpp
+[65.247s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/mobility__struct.hpp
+[65.290s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/mobility__traits.hpp
+[65.338s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/roboclaw_command__builder.hpp
+[65.382s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/roboclaw_command__struct.hpp
+[65.425s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/roboclaw_command__traits.hpp
+[65.470s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/mobility.hpp
+[65.516s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/roboclaw_command.hpp
+[65.560s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/mobility__rosidl_typesupport_introspection_cpp.hpp
+[65.605s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/include/motion_controller_msgs/msg/detail/roboclaw_command__rosidl_typesupport_introspection_cpp.hpp
+[65.657s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/environment/pythonpath.sh
+[65.696s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/environment/pythonpath.dsv
+[65.742s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/python3.6/site-packages/motion_controller_msgs/__init__.py
+[65.788s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/python3.6/site-packages/motion_controller_msgs/msg/__init__.py
+[65.833s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/python3.6/site-packages/motion_controller_msgs/msg/_mobility.py
+[65.879s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/python3.6/site-packages/motion_controller_msgs/msg/_roboclaw_command.py
+[65.940s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/python3.6/site-packages/motion_controller_msgs/motion_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[65.981s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/python3.6/site-packages/motion_controller_msgs/motion_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[66.026s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/python3.6/site-packages/motion_controller_msgs/motion_controller_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[66.072s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__python.so
+[66.116s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/msg/Mobility.idl
+[66.163s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/msg/RoboclawCommand.idl
+[66.206s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/msg/Mobility.msg
+[66.255s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/msg/RoboclawCommand.msg
+[66.302s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/ament_index/resource_index/package_run_dependencies/motion_controller_msgs
+[66.350s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/ament_index/resource_index/parent_prefix_path/motion_controller_msgs
+[66.403s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/environment/ament_prefix_path.sh
+[66.451s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/environment/ament_prefix_path.dsv
+[66.495s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/environment/path.sh
+[66.550s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/environment/path.dsv
+[66.598s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/local_setup.bash
+[66.645s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/local_setup.sh
+[66.710s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/local_setup.zsh
+[66.755s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/local_setup.dsv
+[66.798s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/package.dsv
+[66.845s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/ament_index/resource_index/packages/motion_controller_msgs
+[66.895s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/rosidl_cmake-extras.cmake
+[66.938s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.982s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[67.027s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[67.074s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[67.125s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[67.168s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[67.214s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgsConfig.cmake
+[67.261s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgsConfig-version.cmake
+[67.306s] -- Symlinking: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/package.xml
+[67.352s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_generator_c.so
+[67.356s] -- Set runtime path of "/home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_generator_c.so" to ""
+[67.356s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_typesupport_introspection_c.so
+[67.356s] -- Set runtime path of "/home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_typesupport_introspection_c.so" to ""
+[67.357s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_typesupport_c.so
+[67.360s] -- Set runtime path of "/home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_typesupport_c.so" to ""
+[67.360s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_typesupport_introspection_cpp.so
+[67.360s] -- Set runtime path of "/home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[67.361s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_typesupport_cpp.so
+[67.361s] -- Set runtime path of "/home/usr/usr_ws_2020/install/motion_controller_msgs/lib/libmotion_controller_msgs__rosidl_typesupport_cpp.so" to ""
+[67.751s] Compiling '/home/usr/usr_ws_2020/install/motion_controller_msgs/lib/python3.6/site-packages/motion_controller_msgs/__init__.py'...
+[67.769s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_generator_cExport.cmake
+[67.770s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_generator_cExport-noconfig.cmake
+[67.770s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_typesupport_introspection_cExport.cmake
+[67.771s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[67.772s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_typesupport_cExport.cmake
+[67.772s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[67.773s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_generator_cppExport.cmake
+[67.774s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[67.774s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[67.774s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_typesupport_cppExport.cmake
+[67.775s] -- Installing: /home/usr/usr_ws_2020/install/motion_controller_msgs/share/motion_controller_msgs/cmake/motion_controller_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[67.795s] Invoked command in '/home/usr/usr_ws_2020/build/motion_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy/install/ros2bag:/opt/ros/foxy/install/sros2:/opt/ros/foxy/install/ros2topic:/opt/ros/foxy/install/ros2test:/opt/ros/foxy/install/ros2component:/opt/ros/foxy/install/ros2param:/opt/ros/foxy/install/ros2lifecycle:/opt/ros/foxy/install/ros2service:/opt/ros/foxy/install/ros2run:/opt/ros/foxy/install/ros2launch:/opt/ros/foxy/install/ros2pkg:/opt/ros/foxy/install/ros2node:/opt/ros/foxy/install/ros2multicast:/opt/ros/foxy/install/ros2interface:/opt/ros/foxy/install/ros2doctor:/opt/ros/foxy/install/ros2action:/opt/ros/foxy/install/ros2cli:/opt/ros/foxy/install/launch_testing_ros:/opt/ros/foxy/install/launch_ros:/opt/ros/foxy/install/ament_uncrustify:/opt/ros/foxy/install/rpyutils:/opt/ros/foxy/install/rosidl_runtime_py:/opt/ros/foxy/install/launch_yaml:/opt/ros/foxy/install/launch_xml:/opt/ros/foxy/install/launch_testing:/opt/ros/foxy/install/launch:/opt/ros/foxy/install/osrf_pycommon:/opt/ros/foxy/install/domain_coordinator:/opt/ros/foxy/install/ament_xmllint:/opt/ros/foxy/install/ament_pep257:/opt/ros/foxy/install/ament_package:/opt/ros/foxy/install/ament_mypy:/opt/ros/foxy/install/ament_lint_cmake:/opt/ros/foxy/install/ament_flake8:/opt/ros/foxy/install/ament_copyright:/opt/ros/foxy/install/ament_lint:/opt/ros/foxy/install/ament_index_python:/opt/ros/foxy/install/ament_cpplint:/opt/ros/foxy/install/ament_cppcheck /usr/bin/cmake --build /home/usr/usr_ws_2020/build/motion_controller_msgs --target install -- -j4 -l4

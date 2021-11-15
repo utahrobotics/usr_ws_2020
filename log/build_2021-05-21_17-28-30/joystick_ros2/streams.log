@@ -1,0 +1,42 @@
+[2.219s] Invoking command in '/home/usr/usr_ws_2020/src/joystick_ros2': PYTHONPATH=/home/usr/usr_ws_2020/install/joystick_ros2/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_ros2 build --build-base /home/usr/usr_ws_2020/build/joystick_ros2/build install --prefix /home/usr/usr_ws_2020/install/joystick_ros2 --record /home/usr/usr_ws_2020/build/joystick_ros2/install.log --single-version-externally-managed
+[3.739s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.739s]   % (opt, underscore_opt))
+[3.740s] /home/usr/.local/lib/python3.6/site-packages/setuptools/dist.py:651: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.740s]   % (opt, underscore_opt))
+[3.885s] running egg_info
+[3.887s] creating ../../build/joystick_ros2/joystick_ros2.egg-info
+[3.888s] writing ../../build/joystick_ros2/joystick_ros2.egg-info/PKG-INFO
+[3.889s] writing dependency_links to ../../build/joystick_ros2/joystick_ros2.egg-info/dependency_links.txt
+[3.891s] writing entry points to ../../build/joystick_ros2/joystick_ros2.egg-info/entry_points.txt
+[3.892s] writing requirements to ../../build/joystick_ros2/joystick_ros2.egg-info/requires.txt
+[3.892s] writing top-level names to ../../build/joystick_ros2/joystick_ros2.egg-info/top_level.txt
+[3.910s] writing manifest file '../../build/joystick_ros2/joystick_ros2.egg-info/SOURCES.txt'
+[4.134s] adding license file 'LICENSE' (matched pattern 'LICEN[CS]E*')
+[4.137s] reading manifest file '../../build/joystick_ros2/joystick_ros2.egg-info/SOURCES.txt'
+[4.151s] writing manifest file '../../build/joystick_ros2/joystick_ros2.egg-info/SOURCES.txt'
+[4.151s] running build
+[4.152s] running build_py
+[4.152s] creating /home/usr/usr_ws_2020/build/joystick_ros2/build
+[4.153s] creating /home/usr/usr_ws_2020/build/joystick_ros2/build/lib
+[4.153s] copying joystick_ros2.py -> /home/usr/usr_ws_2020/build/joystick_ros2/build/lib
+[4.153s] copying inputs.py -> /home/usr/usr_ws_2020/build/joystick_ros2/build/lib
+[4.154s] running install
+[4.155s] running install_lib
+[4.157s] copying /home/usr/usr_ws_2020/build/joystick_ros2/build/lib/joystick_ros2.py -> /home/usr/usr_ws_2020/install/joystick_ros2/lib/python3.6/site-packages
+[4.158s] copying /home/usr/usr_ws_2020/build/joystick_ros2/build/lib/inputs.py -> /home/usr/usr_ws_2020/install/joystick_ros2/lib/python3.6/site-packages
+[4.165s] byte-compiling /home/usr/usr_ws_2020/install/joystick_ros2/lib/python3.6/site-packages/joystick_ros2.py to joystick_ros2.cpython-36.pyc
+[4.184s] byte-compiling /home/usr/usr_ws_2020/install/joystick_ros2/lib/python3.6/site-packages/inputs.py to inputs.cpython-36.pyc
+[4.232s] running install_data
+[4.240s] creating /home/usr/usr_ws_2020/install/joystick_ros2/share/ament_index
+[4.240s] creating /home/usr/usr_ws_2020/install/joystick_ros2/share/ament_index/resource_index
+[4.241s] creating /home/usr/usr_ws_2020/install/joystick_ros2/share/ament_index/resource_index/packages
+[4.245s] copying resource/joystick_ros2 -> /home/usr/usr_ws_2020/install/joystick_ros2/share/ament_index/resource_index/packages
+[4.245s] creating /home/usr/usr_ws_2020/install/joystick_ros2/shared
+[4.245s] creating /home/usr/usr_ws_2020/install/joystick_ros2/shared/joystick_ros2
+[4.248s] copying package.xml -> /home/usr/usr_ws_2020/install/joystick_ros2/shared/joystick_ros2
+[4.249s] running install_egg_info
+[4.269s] Copying ../../build/joystick_ros2/joystick_ros2.egg-info to /home/usr/usr_ws_2020/install/joystick_ros2/lib/python3.6/site-packages/joystick_ros2-0.0.1-py3.6.egg-info
+[4.284s] running install_scripts
+[4.501s] Installing joystick_ros2 script to /home/usr/usr_ws_2020/install/joystick_ros2/lib/joystick_ros2
+[4.504s] writing list of installed files to '/home/usr/usr_ws_2020/build/joystick_ros2/install.log'
+[4.823s] Invoked command in '/home/usr/usr_ws_2020/src/joystick_ros2' returned '0': PYTHONPATH=/home/usr/usr_ws_2020/install/joystick_ros2/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_ros2 build --build-base /home/usr/usr_ws_2020/build/joystick_ros2/build install --prefix /home/usr/usr_ws_2020/install/joystick_ros2 --record /home/usr/usr_ws_2020/build/joystick_ros2/install.log --single-version-externally-managed

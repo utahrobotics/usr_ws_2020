@@ -1,0 +1,11 @@
+make[2]: *** [CMakeFiles/motion_controller_msgs__rosidl_typesupport_introspection_cpp.dir/depend] Interrupt
+make[2]: *** [CMakeFiles/motion_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/motion_controller_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+make[1]: *** [CMakeFiles/motion_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make[2]: *** [CMakeFiles/motion_controller_msgs__rosidl_typesupport_cpp.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/motion_controller_msgs__rosidl_typesupport_introspection_c.dir/all] Error 2
+make[1]: *** [CMakeFiles/motion_controller_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+make: *** [all] Interrupt

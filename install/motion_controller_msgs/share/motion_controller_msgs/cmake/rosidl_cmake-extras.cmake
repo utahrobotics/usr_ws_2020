@@ -1,0 +1,1 @@
+/home/usr/usr_ws_2020/build/motion_controller_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

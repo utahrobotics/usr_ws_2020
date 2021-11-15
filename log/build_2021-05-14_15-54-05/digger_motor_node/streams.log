@@ -1,0 +1,40 @@
+[2.329s] Invoking command in '/home/usr/usr_ws_2020/build/digger_motor_node': PYTHONPATH=/home/usr/usr_ws_2020/install/digger_motor_node/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/usr/usr_ws_2020/install/digger_motor_node --editable --build-directory /home/usr/usr_ws_2020/build/digger_motor_node/build --no-deps install_data --install-dir /home/usr/usr_ws_2020/install/digger_motor_node
+[3.277s] Traceback (most recent call last):
+[3.278s]   File "setup.py", line 1, in <module>
+[3.278s]     from setuptools import setup
+[3.279s]   File "/home/usr/.local/lib/python3.6/site-packages/setuptools/__init__.py", line 16, in <module>
+[3.298s]     import setuptools.version
+[3.298s]   File "/home/usr/.local/lib/python3.6/site-packages/setuptools/version.py", line 1, in <module>
+[3.306s]     import pkg_resources
+[3.307s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 78, in <module>
+[3.307s]     __import__('pkg_resources.extern.packaging.requirements')
+[3.307s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 9, in <module>
+[3.308s]     from pkg_resources.extern.pyparsing import stringStart, stringEnd, originalTextFor, ParseException
+[3.308s]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[3.312s]   File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+[3.316s]   File "<frozen importlib._bootstrap>", line 658, in _load_unlocked
+[3.316s]   File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+[3.316s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/extern/__init__.py", line 52, in create_module
+[3.317s]     return self.load_module(spec.name)
+[3.317s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/extern/__init__.py", line 37, in load_module
+[3.317s]     __import__(extant)
+[3.318s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py", line 5399, in <module>
+[3.318s]     class pyparsing_common:
+[3.318s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py", line 5583, in pyparsing_common
+[3.319s]     _short_ipv6_address = (Optional(_ipv6_part + (':' + _ipv6_part)*(0,6)) + "::" + Optional(_ipv6_part + (':' + _ipv6_part)*(0,6))).setName("short IPv6 address")
+[3.319s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py", line 1937, in __mul__
+[3.320s]     ret = makeOptionalList(optElements)
+[3.320s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py", line 1928, in makeOptionalList
+[3.321s]     return Optional(self + makeOptionalList(n-1))
+[3.321s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py", line 1928, in makeOptionalList
+[3.323s]     return Optional(self + makeOptionalList(n-1))
+[3.323s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py", line 1928, in makeOptionalList
+[3.325s]     return Optional(self + makeOptionalList(n-1))
+[3.326s]   [Previous line repeated 1 more time]
+[3.326s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py", line 1839, in __add__
+[3.327s]     return And( [ self, other ] )
+[3.327s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py", line 3391, in __init__
+[3.331s]     super(And,self).__init__(exprs, savelist)
+[3.331s]   File "/home/usr/.local/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py", line 3272, in __init__
+[3.334s]     self.exprs = list(exprs)
+[3.334s] KeyboardInterrupt

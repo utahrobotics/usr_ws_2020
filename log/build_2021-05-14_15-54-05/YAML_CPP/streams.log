@@ -1,0 +1,15 @@
+[0.250s] Invoking command in '/home/usr/usr_ws_2020/build/YAML_CPP': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP -- -j4 -l4
+[0.791s] [  3%] Built target gtest
+[0.805s] [  8%] Built target gmock
+[0.833s] [ 15%] Built target gmock_main
+[0.905s] [ 66%] Built target yaml-cpp
+[1.111s] [ 70%] Built target gtest_main
+[1.188s] [ 90%] Built target run-tests
+[1.214s] [ 93%] Built target sandbox
+[1.233s] [ 96%] Built target parse
+[1.282s] [100%] Built target read
+[2.381s] Invoked command in '/home/usr/usr_ws_2020/build/YAML_CPP' returned '0': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP -- -j4 -l4
+[3.171s] Invoking command in '/home/usr/usr_ws_2020/build/YAML_CPP': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP --target install -- -j4 -l4
+[3.353s] make: *** [cmake_check_build_system] Interrupt
+[3.355s] Makefile:1262: recipe for target 'cmake_check_build_system' failed
+[3.385s] Invoked command in '/home/usr/usr_ws_2020/build/YAML_CPP' returned '-2': /usr/bin/cmake --build /home/usr/usr_ws_2020/build/YAML_CPP --target install -- -j4 -l4

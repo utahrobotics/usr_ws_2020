@@ -1,0 +1,9 @@
+[ 51%] Built target yaml-cpp
+[ 56%] Built target gmock
+[ 63%] Built target gmock_main
+[ 66%] Built target gtest
+[ 70%] Built target sandbox
+[ 73%] Built target parse
+[ 76%] Built target read
+[ 96%] Built target run-tests
+[100%] Built target gtest_main
